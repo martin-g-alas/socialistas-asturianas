@@ -1,0 +1,31 @@
+FOTOS DE LA GALERÍA — Sesión 1, Actividad inicial
+==================================================
+
+Van aquí, con estos nombres exactos (minúsculas, sin tildes ni espacios).
+Formato JPG, preferiblemente vertical (proporción 3:4), unos 450 × 600 px.
+
+  de-gouges.jpg        Olympe de Gouges (1748-1793)            PUESTA
+  wollstonecraft.jpg   Mary Wollstonecraft (1759-1797)         PUESTA
+  tristan.jpg          Flora Tristán (1803-1844)               PUESTA
+  arenal.jpg           Concepción Arenal Ponte (1820-1893)     FALTA
+  zetkin.jpg           Clara Zetkin (1857-1933)                PUESTA
+
+Mientras falte una foto, la página muestra en su lugar un recuadro gris con
+«Foto pendiente», del mismo tamaño que las demás. Basta con copiar aquí el
+archivo con el nombre indicado; no hay que tocar nada más.
+
+Procedencia de las fotos puestas (extraídas del documento de la unidad,
+«Unidad_dida_ctica_cap._1.docx», tal como estaban; solo se han reducido de
+tamaño y convertido a JPG):
+
+  de-gouges.jpg        Imagen de la «Sala 1» del Museo Virtual (sin fuente
+                       indicada en el documento).
+  wollstonecraft.jpg   «Sala 2». Fuente indicada:
+                       https://es.wikipedia.org/wiki/Mary_Wollstonecraft
+  tristan.jpg          «Prueba 3». Fuente indicada:
+                       https://es.wikipedia.org/wiki/Flora_Tristan
+  zetkin.jpg           «Prueba 3». Fuente indicada:
+                       https://es.wikipedia.org/wiki/Clara_Zetkin#/media/Archivo:C_Zetkin_1.jpg
+
+Si se cambia el nombre de un archivo, hay que cambiarlo también en
+js/datos-ud2-s1.js (campo «imagen» de cada elemento).

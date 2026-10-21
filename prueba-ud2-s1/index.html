@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unidad didáctica · Sesión 1</title>
+  <link rel="stylesheet" href="../css/ud.css">
+  <script src="../js/datos-ud2-s1.js" defer></script>
+  <script src="../js/ud-menu.js" defer></script>
+  <script src="../js/ud-actividades.js" defer></script>
+</head>
+<body class="ud-pagina ud-prueba">
+
+  <a class="ud-saltar" href="#ud-contenido">Ir al contenido</a>
+
+  <!-- CABECERA COMÚN: idéntica en todas las páginas. Los textos los rellena ud-actividades.js desde los datos. -->
+  <header class="ud-cabecera">
+    <img class="ud-cabecera__ilustracion" src="../img/rosa-zapico-web.png" width="285" height="700" alt="" aria-hidden="true">
+
+    <div class="ud-cabecera__texto">
+      <nav class="ud-menu" aria-label="Principal">
+        <button class="ud-menu__boton" type="button" aria-expanded="false" aria-controls="ud-menu-lista">
+          <span class="ud-menu__icono" aria-hidden="true"></span>Menú
+        </button>
+        <ul class="ud-menu__lista" id="ud-menu-lista">
+          <li><a class="ud-menu__enlace" href="#" aria-disabled="true">Inicio</a></li>
+          <li class="ud-menu__grupo">
+            <button class="ud-menu__enlace ud-menu__desplegar" type="button" aria-expanded="false" aria-controls="ud-submenu-unidades">
+              Unidades<span class="ud-menu__flecha" aria-hidden="true"></span>
+            </button>
+            <ul class="ud-submenu" id="ud-submenu-unidades">
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="1" aria-disabled="true">Unidad 1</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="2" aria-disabled="true">Unidad 2</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="3" aria-disabled="true">Unidad 3</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="4" aria-disabled="true">Unidad 4</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="5" aria-disabled="true">Unidad 5</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="6" aria-disabled="true">Unidad 6</a></li>
+              <li><a class="ud-submenu__enlace" href="#" data-ud-unidad="7" aria-disabled="true">Unidad 7</a></li>
+            </ul>
+          </li>
+          <li><a class="ud-menu__enlace" href="#" aria-disabled="true">Recursos</a></li>
+          <li><a class="ud-menu__enlace" href="#" aria-disabled="true">Créditos</a></li>
+        </ul>
+      </nav>
+
+      <p class="ud-cabecera__meta" data-ud="meta"></p>
+      <h1 class="ud-cabecera__titulo" data-ud="titulo"></h1>
+    </div>
+  </header>
+
+  <main class="ud-cuerpo" id="ud-contenido" tabindex="-1">
+    <!-- Aviso si no carga el archivo de datos: lo muestra ud-actividades.js. -->
+    <div class="ud-aviso" id="ud-aviso-datos" role="alert" hidden>
+      No se ha podido cargar el archivo de datos de la sesión (carpeta js/). La página se muestra sin actividades.
+    </div>
+    <noscript>
+      <div class="ud-aviso">Esta página necesita JavaScript para mostrar las actividades.</div>
+    </noscript>
+
+    <nav class="ud-sesiones" data-ud="sesiones" aria-labelledby="ud-sesiones-titulo"></nav>
+
+    <h2 class="ud-sesion__titulo" data-ud="sesion"></h2>
+
+    <div class="ud-actividades" data-ud="actividades"></div>
+  </main>
+
+  <footer class="ud-pie">
+    <p data-ud="pie"></p>
+  </footer>
+
+</body>
+</html>
