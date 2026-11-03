@@ -320,6 +320,10 @@ IMG["prensa_oviedo"] = {"src": "../img/sa1/el-socialista-1900-oviedo.jpg", "alt"
 IMG["prensa_gijon"] = {"src": "../img/sa1/el-socialista-gijon-tejedoras.jpg", "alt": "Recorte de prensa: las tejedoras de Gijón mantienen su huelga.",
                        "titulo": "El Socialista · huelga de las tejedoras de Gijón (recorte)", "autor": "El Socialista", "fecha": "", "licencia": "Dominio público",
                        "fuente": "", "estado": "libre", "estadoTexto": "Libre", "w": 436, "h": 338}
+# Josefa Amar y Borbón: no hay retrato descargable por ahora; se muestra un icono.
+IMG["amar"] = {"src": "../img/sa1/retrato-icono.svg", "alt": "Icono de retrato: Josefa de Amar y Borbón (sin imagen disponible).",
+               "titulo": "Josefa de Amar y Borbón · icono provisional", "autor": "", "fecha": "", "licencia": "",
+               "fuente": "", "estado": "libre", "estadoTexto": "Icono provisional", "sinCredito": True, "w": 300, "h": 400}
 IMG["cabecera_s2"] = {"src": "../img/sa1/sesiones/sesion-2-urna.jpg", "alt": "Acuarela de una urna electoral de cristal dentro de un armazón de madera.",
                       "titulo": "Ballot Box (urna electoral), acuarela, c. 1939", "autor": "Rose Campbell-Gerke · Index of American Design, National Gallery of Art", "fecha": "c. 1939", "licencia": "CC0",
                       "fuente": "https://www.rawpixel.com/image/8232391/image-art-vintage-public-domain", "estado": "libre", "estadoTexto": "Libre", "decorativa": True, "w": 1600, "h": 760}

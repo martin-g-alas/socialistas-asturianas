@@ -193,12 +193,19 @@ window.UD_DATOS = {
    "h": 423
   },
   "amar": {
-   "estado": "pendiente",
-   "descripcion": "Josefa de Amar y Borbón",
-   "titulo": "Josefa de Amar y Borbón",
-   "sesion": "Sesión 3 · Sesión 4",
-   "estadoTexto": "Pendiente",
-   "motivo": "No se ha encontrado ninguna imagen con licencia libre."
+   "src": "../img/sa1/retrato-icono.svg",
+   "alt": "Icono de retrato: Josefa de Amar y Borbón (sin imagen disponible).",
+   "titulo": "Josefa de Amar y Borbón · icono provisional",
+   "autor": "",
+   "fecha": "",
+   "licencia": "",
+   "fuente": "",
+   "estado": "libre",
+   "estadoTexto": "Icono provisional",
+   "sinCredito": true,
+   "w": 300,
+   "h": 400,
+   "sesion": "Sesión 3 · Sesión 4"
   },
   "posada": {
    "src": "../img/sa1/posada.jpg",
