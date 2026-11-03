@@ -5,6 +5,24 @@
 import json, re, sys
 
 P = json.load(open(sys.argv[1], encoding="utf8"))
+
+# Erratas del docx corregidas con el visto bueno de la autoría (tramo exacto → corrección).
+# Cada una debe aplicarse una sola vez; si el docx cambia, el script se detiene.
+CORRECCIONES = [
+    ("Nleken", "Nelken"),                                              # Margarita Nelken
+    ("11-10-1910", "11-10-1913"),                                      # fecha de El Socialista, documento 2
+    ("individual de empatía histórica:", "de empatía histórica:"),     # «2. Actividad de empatía histórica»
+    (" causa, deberéis preparar ", " causa, deberéis preparar un "),   # «preparar un elemento visual»
+    ("8", "6"),                                                        # temporalización: 6 sesiones
+]
+for viejo, nuevo in CORRECCIONES:
+    sitios = [s for p in P for s in p["segs"] if s["t"] == viejo and not s.get("rojo")]
+    if viejo == "8":  # el «8» suelto solo en la temporalización («8 sesiones»)
+        sitios = [p["segs"][0] for p in P if "".join(x["t"] for x in p["segs"]).strip() == "8 sesiones"]
+    assert len(sitios) == 1, (viejo, len(sitios))
+    sitios[0]["t"] = nuevo
+for p in P:
+    p["texto"] = "".join(s["t"] for s in p["segs"])
 V = json.load(open(sys.argv[2], encoding="utf8"))
 SAL = sys.argv[3]
 usados = set()
@@ -198,7 +216,7 @@ sesiones.append({
     ], "imagen": "cabecera_s4"})
 
 # ---- Sesión 5
-eti2, tit2 = partir(T("2. Actividad individual de empatía"))
+eti2, tit2 = partir(T("2. Actividad de empatía"))
 sesiones.append({
     "n": 5, "titulo": T("La voz de las trabajadoras asturianas"), "intro": T("En la quinta sesión se pretende"),
     "actividades": [
@@ -206,7 +224,7 @@ sesiones.append({
          "contenido": [{"titulo": T("Lectura por parejas de las dos noticias:")},
                        {"noticias": [
                            {"titulo": T("Documento 1. Oviedo, 1900"), "fecha": T("El Socialista 16-3-1900"), "resumen": T("Las obreras de una fábrica de cerillas"), "imagen": "prensa_oviedo"},
-                           {"titulo": T("Documento 2. Gijón. 1913"), "fecha": T("El Socialista 11-10-1910"), "resumen": T("Más de doscientas trabajadoras"), "imagen": "prensa_gijon"}]},
+                           {"titulo": T("Documento 2. Gijón. 1913"), "fecha": T("El Socialista 11-10-1913"), "resumen": T("Más de doscientas trabajadoras"), "imagen": "prensa_gijon"}]},
                        {"titulo": T("b) Analizamos las condiciones de trabajo:")},
                        {"tablaTrabajo": {"clave": "sa1-s5-condiciones", "archivo": "Sesion-5-condiciones-de-trabajo", "titulo": T("b) Analizamos las condiciones de trabajo:"), "cabeceras": ["", T("Oviedo (1900)"), T("Gijón (1913)")],
                                          "filas": [T("Tipo de trabajadoras"), T("Problemas denunciados"), T("Forma de protesta"), T("Apoyo recibido")]}}]},
@@ -305,7 +323,7 @@ sa = {
         {"clave": T("Etapa"), "valor": T("Educación") + " " + T("Secundaria Obligatoria")},
         {"clave": T("Curso"), "valor": T("4.º ESO")},
         {"clave": T("Materia"), "valor": T("Geografía e Historia")},
-        {"clave": T("Temporalización"), "valor": T("8 sesiones")},
+        {"clave": T("Temporalización"), "valor": T("6 sesiones")},
     ],
     "interdisciplinar": {"clave": T("Relación interdisciplinar entre áreas"), "valor": T("En esta situación de aprendizaje, dado que")},
     "secuenciacion": T("SECUENCIACIÓN DIDÁCTICA"),

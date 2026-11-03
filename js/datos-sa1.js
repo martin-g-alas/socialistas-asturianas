@@ -527,7 +527,7 @@ window.UD_DATOS = {
      "etiqueta": "Materia"
     },
     {
-     "valor": "8 sesiones",
+     "valor": "6 sesiones",
      "etiqueta": "Temporalización"
     }
    ]
@@ -835,7 +835,7 @@ window.UD_DATOS = {
       },
       [
        {
-        "texto": "A continuación, cada pareja de estudiantes debe imaginar que acudirá a una manifestación en favor del derecho al voto de las mujeres a mediados del siglo XIX. El objetivo de la campaña es conseguir el derecho al voto de las mujeres para que puedan intervenir en las decisiones políticas y luchar por sus derechos y por la igualdad. Para defender esta causa, deberéis preparar "
+        "texto": "A continuación, cada pareja de estudiantes debe imaginar que acudirá a una manifestación en favor del derecho al voto de las mujeres a mediados del siglo XIX. El objetivo de la campaña es conseguir el derecho al voto de las mujeres para que puedan intervenir en las decisiones políticas y luchar por sus derechos y por la igualdad. Para defender esta causa, deberéis preparar un "
        },
        {
         "texto": "elemento visual reivindicativo (pancarta o cartel)",
@@ -1010,7 +1010,7 @@ window.UD_DATOS = {
         "texto": "https://fpabloiglesias.es/archivo-y-biblioteca/diccionario-biografico/"
        },
        {
-        "texto": "), buscando una entrada, por ejemplo, la de Margarita Nleken:"
+        "texto": "), buscando una entrada, por ejemplo, la de Margarita Nelken:"
        }
       ],
       [
@@ -1199,7 +1199,7 @@ window.UD_DATOS = {
         },
         {
          "titulo": "Documento 2. Gijón. 1913",
-         "fecha": "El Socialista 11-10-1910",
+         "fecha": "El Socialista 11-10-1913",
          "resumen": "Más de doscientas trabajadoras de varias fábricas de conservas mantienen una huelga para conseguir mejoras laborales. Otras asociaciones obreras muestran su apoyo económico y moral a las huelguistas.",
          "imagen": "prensa_gijon"
         }
@@ -1229,7 +1229,7 @@ window.UD_DATOS = {
      ]
     },
     {
-     "etiqueta": "2. Actividad individual de empatía histórica",
+     "etiqueta": "2. Actividad de empatía histórica",
      "titulo": "Correspondencia personal",
      "aula": true,
      "contenido": [
