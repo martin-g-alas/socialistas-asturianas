@@ -193,18 +193,17 @@ window.UD_DATOS = {
    "h": 423
   },
   "amar": {
-   "src": "../img/sa1/retrato-icono.svg",
-   "alt": "Icono de retrato: Josefa de Amar y Borbón (sin imagen disponible).",
-   "titulo": "Josefa de Amar y Borbón · icono provisional",
-   "autor": "",
+   "src": "../img/sa1/amar.jpg",
+   "alt": "Grabado: retrato de una mujer sentada, con collar y vestido de hombros descubiertos.",
+   "titulo": "Josefa de Amar y Borbón (grabado)",
+   "autor": "Grabado facilitado por la autoría de la unidad",
    "fecha": "",
-   "licencia": "",
+   "licencia": "Procedencia por confirmar",
    "fuente": "",
    "estado": "libre",
-   "estadoTexto": "Icono provisional",
-   "sinCredito": true,
-   "w": 300,
-   "h": 400,
+   "estadoTexto": "Por confirmar",
+   "w": 520,
+   "h": 627,
    "sesion": "Sesión 3 · Sesión 4"
   },
   "posada": {
