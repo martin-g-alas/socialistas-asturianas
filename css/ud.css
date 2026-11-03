@@ -1647,3 +1647,7 @@ html { background: #fff; }
 @media (prefers-reduced-motion: reduce) {
   .ud-pagina.ud-unidad .ud-relacionar--mapa .ud-mapa__punto { transition: none; }
 }
+
+/* Carta decorativa en la actividad de correspondencia (sesión 5) */
+.ud-pagina.ud-unidad .ud-figura--carta { max-width: 260px; margin: 24px 0 8px; transform: rotate(-2deg); }
+.ud-pagina.ud-unidad .ud-figura--carta .ud-imagen { box-shadow: 8px 8px 0 var(--u-acuarela-fondo); }

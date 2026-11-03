@@ -234,7 +234,8 @@ sesiones.append({
                                          "filas": [T("Tipo de trabajadoras"), T("Problemas denunciados"), T("Forma de protesta"), T("Apoyo recibido")]}}]},
         {"etiqueta": eti2, "titulo": tit2, "aula": True,
          "contenido": [T("Esta actividad se realizará por parejas"), T("Estas preguntas pueden servir"),
-                       lista(["¿Cómo sería tu jornada", "¿Cuáles serían tus principales", "¿Qué esperas conseguir", "¿Crees que las condiciones", "¿Qué derechos laborales", "¿Crees que siguen existiendo"])]},
+                       lista(["¿Cómo sería tu jornada", "¿Cuáles serían tus principales", "¿Qué esperas conseguir", "¿Crees que las condiciones", "¿Qué derechos laborales", "¿Crees que siguen existiendo"]),
+                       {"figura": "carta_exiliada", "clase": "ud-figura--carta"}]},
         franja("LECTURA COLABORATIVA", "¿Os animáis a compartir", "Lectura colaborativa"),
     ], "imagen": "cabecera_s5"})
 
@@ -360,6 +361,13 @@ IMG["mapa_zona"] = {"src": "../img/sa1/mapa-asturias-zona.png", "alt": "Mapa mud
                     "titulo": "Mapa de concejos de Asturias (zona central)", "sinCredito": True, "estado": "libre", "w": 660, "h": 624}
 IMG["mapa_situacion"] = {"src": "../img/sa1/mapa-asturias-situacion.png", "alt": "Mapa de situación: Asturias entera con un recuadro en la zona central ampliada.",
                          "titulo": "Mapa de situación de Asturias", "sinCredito": True, "estado": "libre", "w": 500, "h": 172}
+EXPOSICION = "Exposición «Cartas de exiliadas. El legado de la palabra y la escritura (1939-1975)» · Fundación José Barreiro"
+IMG["cabecera_s5"] = {"src": "../img/sa1/sesiones/sesion-5-cartas.jpg", "alt": "Cartas manuscritas y mecanografiadas de exiliadas, con sus sobres.",
+                      "titulo": "Cartas de exiliadas (montaje)", "autor": EXPOSICION, "fecha": "1939-1975", "licencia": "",
+                      "fuente": "", "estado": "libre", "estadoTexto": "Cedida", "decorativa": True, "w": 1300, "h": 640}
+IMG["carta_exiliada"] = {"src": "../img/sa1/carta-exiliada.jpg", "alt": "Carta manuscrita de una exiliada sobre papel cuadriculado, junto a su sobre.",
+                         "titulo": "Carta de exiliada", "autor": EXPOSICION, "fecha": "", "licencia": "",
+                         "fuente": "", "estado": "libre", "estadoTexto": "Cedida", "w": 260, "h": 300}
 IMG["cabecera_s2"] = {"src": "../img/sa1/sesiones/sesion-2-urna.jpg", "alt": "Acuarela de una urna electoral de cristal dentro de un armazón de madera.",
                       "titulo": "Ballot Box (urna electoral), acuarela, c. 1939", "autor": "Rose Campbell-Gerke · Index of American Design, National Gallery of Art", "fecha": "c. 1939", "licencia": "CC0",
                       "fuente": "https://www.rawpixel.com/image/8232391/image-art-vintage-public-domain", "estado": "libre", "estadoTexto": "Libre", "decorativa": True, "w": 1600, "h": 760}
