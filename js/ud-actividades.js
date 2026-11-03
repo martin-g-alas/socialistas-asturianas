@@ -290,6 +290,8 @@
         padre.appendChild(noticias(it.noticias));
       } else if (it.tablaTrabajo) {
         padre.appendChild(tablaTrabajo(it.tablaTrabajo));
+      } else if (it.relacionar) {
+        padre.appendChild(motorRelacionar(it.relacionar));
       }
     });
     return padre;
@@ -492,6 +494,14 @@
         marco.appendChild(m);
         marcadores.push(m);
       });
+      if (act.situacion) {
+        var ds = datoImagen(act.situacion);
+        var sit = el("img", "ud-mapa__situacion");
+        sit.src = ds.src;
+        sit.alt = ds.alt || "";
+        if (ds.w && ds.h) { sit.width = ds.w; sit.height = ds.h; }
+        marco.appendChild(sit);
+      }
       lienzo.appendChild(marco);
       var capm = el("figcaption", "ud-figura__pie");
       if (dm && dm.estado !== "pendiente") { capm.appendChild(pieCredito(dm)); }
@@ -534,6 +544,11 @@
       select.appendChild(new Option(act.textoElige || (modo === "imagenes" ? T.elige : T.eligeTexto), ""));
       opciones.forEach(function (o) { select.appendChild(new Option(o, o)); });
       pieza.select = select;
+      // En el mapa, el punto del desplegable que se está usando se resalta.
+      if (pieza.marcador) {
+        select.addEventListener("focus", function () { pieza.marcador.classList.add("ud-activo"); });
+        select.addEventListener("blur", function () { pieza.marcador.classList.remove("ud-activo"); });
+      }
 
       var fb = el("p", "ud-pieza__feedback");
       fb.id = idFeedback;

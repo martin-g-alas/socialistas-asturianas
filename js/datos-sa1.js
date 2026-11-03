@@ -438,6 +438,14 @@ window.UD_DATOS = {
    "h": 800,
    "sesion": "Sesión 6 · cabecera"
   },
+  "mapa": {
+   "estado": "pendiente",
+   "descripcion": "Mapa base de Asturias",
+   "titulo": "Mapa base de Asturias",
+   "sesion": "Sesión 6",
+   "estadoTexto": "Pendiente",
+   "motivo": "No se pudo descargar la versión ampliada."
+  },
   "prensa_oviedo": {
    "src": "../img/sa1/el-socialista-1900-oviedo.jpg",
    "alt": "Recorte de prensa: noticia «En Oviedo» sobre la huelga de las operarias de la fábrica de cerillas de los señores San Román.",
@@ -465,6 +473,26 @@ window.UD_DATOS = {
    "w": 436,
    "h": 338,
    "sesion": "Sesión 5"
+  },
+  "mapa_zona": {
+   "src": "../img/sa1/mapa-asturias-zona.png",
+   "alt": "Mapa mudo de la zona central de Asturias con los límites de los concejos y seis puntos numerados.",
+   "titulo": "Mapa de concejos de Asturias (zona central)",
+   "sinCredito": true,
+   "estado": "libre",
+   "w": 660,
+   "h": 624,
+   "sesion": "Sesión 6"
+  },
+  "mapa_situacion": {
+   "src": "../img/sa1/mapa-asturias-situacion.png",
+   "alt": "Mapa de situación: Asturias entera con un recuadro en la zona central ampliada.",
+   "titulo": "Mapa de situación de Asturias",
+   "sinCredito": true,
+   "estado": "libre",
+   "w": 500,
+   "h": 172,
+   "sesion": "Sesión 6"
   }
  },
  "bloques": [
@@ -1240,7 +1268,6 @@ window.UD_DATOS = {
      "etiqueta": "Actividad cartográfica",
      "titulo": "Los primeros grupos femeninos socialistas",
      "aula": true,
-     "estado": "Mapa pendiente",
      "contenido": [
       "En primer lugar, debéis leer el siguiente texto, en el que se explica cómo se formaron estos primeros grupos femeninos socialistas en Asturias. A continuación, situad en el mapa todos los lugares que aparecen mencionados en el texto.",
       {
@@ -1268,6 +1295,74 @@ window.UD_DATOS = {
         "Vegadotos",
         "Turón"
        ]
+      },
+      {
+       "relacionar": {
+        "modo": "mapa",
+        "mapa": "mapa_zona",
+        "situacion": "mapa_situacion",
+        "barajar": true,
+        "intentosParaSolucion": 2,
+        "etiquetaElemento": "Punto {n}",
+        "textoElige": "Elige el lugar",
+        "opciones": [
+         "Gijón",
+         "Mieres",
+         "La Vega (Riosa)",
+         "Sotrondio",
+         "Vegadotos",
+         "Turón"
+        ],
+        "mensajes": {
+         "correcto": "Correcto · {nombre}",
+         "noEs": "No es {nombre} · prueba otra vez",
+         "solucion": "Solución · {nombre}"
+        },
+        "elementos": [
+         {
+          "respuesta": "Gijón",
+          "punto": {
+           "x": 56.4,
+           "y": 16.3
+          }
+         },
+         {
+          "respuesta": "Mieres",
+          "punto": {
+           "x": 45.9,
+           "y": 71.6
+          }
+         },
+         {
+          "respuesta": "La Vega (Riosa)",
+          "punto": {
+           "x": 22.7,
+           "y": 80.8
+          }
+         },
+         {
+          "respuesta": "Sotrondio",
+          "punto": {
+           "x": 70.5,
+           "y": 68.3
+          }
+         },
+         {
+          "respuesta": "Vegadotos",
+          "punto": {
+           "x": 53.6,
+           "y": 71.2
+          }
+         },
+         {
+          "respuesta": "Turón",
+          "punto": {
+           "x": 54.1,
+           "y": 79.3
+          }
+         }
+        ]
+       }
       },
       {
        "titulo": "b) Síntesis de los datos de los primeros grupos:"

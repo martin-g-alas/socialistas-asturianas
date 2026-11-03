@@ -225,12 +225,21 @@ assert re.sub(r"\s+", " ", fin) == "Puesta en común En el aula", fin
 sesiones.append({
     "n": 6, "titulo": T("Los primeros grupos femeninos socialistas en Asturias"), "intro": T("En la sexta sesión nos acercaremos"),
     "actividades": [
-        {"etiqueta": eti, "titulo": tit, "aula": True, "estado": "Mapa pendiente",
+        {"etiqueta": eti, "titulo": tit, "aula": True,
          "contenido": [T("En primer lugar, debéis leer"),
                        {"documento": {"titulo": T("Las asturianas se organizan"),
                                       "parrafos": [T(x) for x in ["Los primeros grupos femeninos socialistas surgen", "En Gijón, las trabajadoras", "En octubre de 1913", "Fueron los grupos de La Vega", "El grupo femenino socialista de Vegadotos", "La Agrupación Femenina de Turón"]]}},
                        {"titulo": T("a) Debéis situar en el mapa")},
                        {"lista": [exacto(x) for x in lugares]},
+                       {"relacionar": {"modo": "mapa", "mapa": "mapa_zona", "situacion": "mapa_situacion", "barajar": True, "intentosParaSolucion": 2,
+                                       "etiquetaElemento": "Punto {n}", "textoElige": "Elige el lugar", "opciones": lugares,
+                                       "mensajes": {"correcto": "Correcto · {nombre}", "noEs": "No es {nombre} · prueba otra vez", "solucion": "Solución · {nombre}"},
+                                       "elementos": [{"respuesta": "Gijón", "punto": {"x": 56.4, "y": 16.3}},
+                                                     {"respuesta": "Mieres", "punto": {"x": 45.9, "y": 71.6}},
+                                                     {"respuesta": "La Vega (Riosa)", "punto": {"x": 22.7, "y": 80.8}},
+                                                     {"respuesta": "Sotrondio", "punto": {"x": 70.5, "y": 68.3}},
+                                                     {"respuesta": "Vegadotos", "punto": {"x": 53.6, "y": 71.2}},
+                                                     {"respuesta": "Turón", "punto": {"x": 54.1, "y": 79.3}}]}},
                        {"titulo": T("b) Síntesis de los datos")},
                        {"tablaTrabajo": {"clave": "sa1-s6-grupos", "archivo": "Sesion-6-primeros-grupos-femeninos", "titulo": T("b) Síntesis de los datos"), "cabeceras": [T("Localidad"), T("Fecha aproximada"), T("Datos")],
                                          "filas": lugares}}]},
@@ -324,6 +333,10 @@ IMG["prensa_gijon"] = {"src": "../img/sa1/el-socialista-gijon-tejedoras.jpg", "a
 IMG["amar"] = {"src": "../img/sa1/retrato-icono.svg", "alt": "Icono de retrato: Josefa de Amar y Borbón (sin imagen disponible).",
                "titulo": "Josefa de Amar y Borbón · icono provisional", "autor": "", "fecha": "", "licencia": "",
                "fuente": "", "estado": "libre", "estadoTexto": "Icono provisional", "sinCredito": True, "w": 300, "h": 400}
+IMG["mapa_zona"] = {"src": "../img/sa1/mapa-asturias-zona.png", "alt": "Mapa mudo de la zona central de Asturias con los límites de los concejos y seis puntos numerados.",
+                    "titulo": "Mapa de concejos de Asturias (zona central)", "sinCredito": True, "estado": "libre", "w": 660, "h": 624}
+IMG["mapa_situacion"] = {"src": "../img/sa1/mapa-asturias-situacion.png", "alt": "Mapa de situación: Asturias entera con un recuadro en la zona central ampliada.",
+                         "titulo": "Mapa de situación de Asturias", "sinCredito": True, "estado": "libre", "w": 500, "h": 172}
 IMG["cabecera_s2"] = {"src": "../img/sa1/sesiones/sesion-2-urna.jpg", "alt": "Acuarela de una urna electoral de cristal dentro de un armazón de madera.",
                       "titulo": "Ballot Box (urna electoral), acuarela, c. 1939", "autor": "Rose Campbell-Gerke · Index of American Design, National Gallery of Art", "fecha": "c. 1939", "licencia": "CC0",
                       "fuente": "https://www.rawpixel.com/image/8232391/image-art-vintage-public-domain", "estado": "libre", "estadoTexto": "Libre", "decorativa": True, "w": 1600, "h": 760}
