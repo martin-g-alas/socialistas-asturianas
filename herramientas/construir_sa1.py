@@ -208,7 +208,7 @@ sesiones.append({
                            {"titulo": T("Documento 1. Oviedo, 1900"), "fecha": T("El Socialista 16-3-1900"), "resumen": T("Las obreras de una fábrica de cerillas"), "imagen": "prensa_oviedo"},
                            {"titulo": T("Documento 2. Gijón. 1913"), "fecha": T("El Socialista 11-10-1910"), "resumen": T("Más de doscientas trabajadoras"), "imagen": "prensa_gijon"}]},
                        {"titulo": T("b) Analizamos las condiciones de trabajo:")},
-                       {"tablaTrabajo": {"clave": "sa1-s5-condiciones", "cabeceras": ["", T("Oviedo (1900)"), T("Gijón (1913)")],
+                       {"tablaTrabajo": {"clave": "sa1-s5-condiciones", "archivo": "Sesion-5-condiciones-de-trabajo", "titulo": T("b) Analizamos las condiciones de trabajo:"), "cabeceras": ["", T("Oviedo (1900)"), T("Gijón (1913)")],
                                          "filas": [T("Tipo de trabajadoras"), T("Problemas denunciados"), T("Forma de protesta"), T("Apoyo recibido")]}}]},
         {"etiqueta": eti2, "titulo": tit2, "aula": True,
          "contenido": [T("Esta actividad se realizará por parejas"), T("Estas preguntas pueden servir"),
@@ -232,7 +232,7 @@ sesiones.append({
                        {"titulo": T("a) Debéis situar en el mapa")},
                        {"lista": [exacto(x) for x in lugares]},
                        {"titulo": T("b) Síntesis de los datos")},
-                       {"tablaTrabajo": {"clave": "sa1-s6-grupos", "cabeceras": [T("Localidad"), T("Fecha aproximada"), T("Datos")],
+                       {"tablaTrabajo": {"clave": "sa1-s6-grupos", "archivo": "Sesion-6-primeros-grupos-femeninos", "titulo": T("b) Síntesis de los datos"), "cabeceras": [T("Localidad"), T("Fecha aproximada"), T("Datos")],
                                          "filas": lugares}}]},
         {"etiqueta": eti2, "titulo": tit2, "aula": True,
          "contenido": [S("En el texto de la actividad anterior aparece"), S("Por su parte, Rosario de Acuña"),
@@ -358,8 +358,10 @@ cred["despues"] = [{"nota": "Tipografía Lato (SIL Open Font License) · Ilustra
 bloques.append(cred)
 
 interfaz = dict(V["interfaz"])
-interfaz.update({"tablaVacia": "Escribe aquí", "tablaGuardada": "Lo que escribas se guarda solo en este navegador.", "tablaBorrar": "Vaciar la tabla",
-                 "tablaBorrada": "Tabla vaciada.", "seleccionada": "(seleccionada)"})
+interfaz.update({"tablaVacia": "Escribe aquí", "tablaGuardada": "Lo que escribas se guarda en este navegador. Para entregarlo o seguir en otro equipo, descárgalo o cópialo.",
+                 "tablaWord": "Descargar para Word", "tablaCsv": "Descargar hoja de cálculo", "tablaCopiar": "Copiar la tabla",
+                 "tablaDescargada": "Tabla descargada.", "tablaCopiada": "Tabla copiada: pégala en tu documento.",
+                 "tablaNoCopiada": "No se ha podido copiar: usa «Descargar para Word».", "seleccionada": "(seleccionada)"})
 
 D = {"unidad": {"numero": 1, "tituloPagina": sa["etiqueta"].strip().capitalize() + " · " + sa["titulo"].capitalize()},
      "interfaz": interfaz, "imagenes": IMG, "bloques": bloques}

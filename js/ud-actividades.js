@@ -371,17 +371,83 @@
     caja.appendChild(envoltorio);
     var pie = el("div", "ud-trabajo__pie");
     pie.appendChild(el("p", "ud-trabajo__nota", T.tablaGuardada));
-    var vaciar = boton(T.tablaBorrar, "ud-boton ud-boton--borde");
-    var estado = el("p", "ud-oculto");
+    var botones = el("div", "ud-trabajo__botones");
+    var estado = el("p", "ud-trabajo__estado");
     estado.setAttribute("aria-live", "polite");
-    vaciar.addEventListener("click", function () {
-      campos.forEach(function (c) { c.value = ""; });
-      guardar();
-      estado.textContent = T.tablaBorrada;
+
+    // Filas de la tabla con lo escrito, para exportar.
+    function filasActuales() {
+      var filas = [x.cabeceras.slice()];
+      x.filas.forEach(function (fila, i) {
+        var f = [fila];
+        for (var k = 1; k < x.cabeceras.length; k++) { f.push(campos[i * (x.cabeceras.length - 1) + k - 1].value); }
+        filas.push(f);
+      });
+      return filas;
+    }
+    function esc(s) {
+      return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, "<br>");
+    }
+    function tablaHtml() {
+      var f = filasActuales();
+      var h = "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-family:Calibri,Arial,sans-serif;font-size:11pt\">";
+      f.forEach(function (fila, i) {
+        h += "<tr>" + fila.map(function (c, k) {
+          var tag = i === 0 || k === 0 ? "th" : "td";
+          return "<" + tag + " style=\"text-align:left;vertical-align:top\">" + esc(c) + "</" + tag + ">";
+        }).join("") + "</tr>";
+      });
+      return h + "</table>";
+    }
+    function descargar(contenido, tipo, extension) {
+      var a = el("a");
+      a.href = URL.createObjectURL(new Blob([contenido], { type: tipo }));
+      a.download = (x.archivo || x.clave) + "." + extension;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { URL.revokeObjectURL(a.href); a.parentNode.removeChild(a); }, 0);
+    }
+
+    // Documento de Word: abre en Word, LibreOffice o Google Docs con la tabla.
+    var bWord = boton(T.tablaWord, "ud-boton ud-boton--borde");
+    bWord.addEventListener("click", function () {
+      var doc = "<html><head><meta charset=\"utf-8\"><title>" + esc(x.titulo || "") + "</title></head><body>" +
+        (x.titulo ? "<h2 style=\"font-family:Calibri,Arial,sans-serif\">" + esc(x.titulo) + "</h2>" : "") + tablaHtml() + "</body></html>";
+      descargar("﻿" + doc, "application/msword", "doc");
+      estado.textContent = T.tablaDescargada;
     });
-    pie.appendChild(vaciar);
-    pie.appendChild(estado);
+    // Hoja de cálculo (CSV con separador «;», como la abre Excel en español).
+    var bCsv = boton(T.tablaCsv, "ud-boton ud-boton--borde");
+    bCsv.addEventListener("click", function () {
+      var csv = filasActuales().map(function (fila) {
+        return fila.map(function (c) { return "\"" + String(c).replace(/"/g, "\"\"") + "\""; }).join(";");
+      }).join("\r\n");
+      descargar("﻿" + csv, "text/csv;charset=utf-8", "csv");
+      estado.textContent = T.tablaDescargada;
+    });
+    // Copiar: se pega como tabla en Word, Google Docs o un correo.
+    var bCopiar = boton(T.tablaCopiar, "ud-boton ud-boton--borde");
+    bCopiar.addEventListener("click", function () {
+      var texto = filasActuales().map(function (f) { return f.join("\t"); }).join("\n");
+      function hecho() { estado.textContent = T.tablaCopiada; }
+      function fallo() { estado.textContent = T.tablaNoCopiada; }
+      try {
+        if (window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) {
+          navigator.clipboard.write([new ClipboardItem({
+            "text/html": new Blob([tablaHtml()], { type: "text/html" }),
+            "text/plain": new Blob([texto], { type: "text/plain" })
+          })]).then(hecho, fallo);
+        } else if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(texto).then(hecho, fallo);
+        } else { fallo(); }
+      } catch (e) { fallo(); }
+    });
+    botones.appendChild(bWord);
+    botones.appendChild(bCsv);
+    botones.appendChild(bCopiar);
+    pie.appendChild(botones);
     caja.appendChild(pie);
+    caja.appendChild(estado);
     return caja;
   }
 

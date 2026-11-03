@@ -42,9 +42,13 @@ window.UD_DATOS = {
   "todasSesiones": "Todas las sesiones",
   "altIlustracion": "Ilustración de {nombre}",
   "tablaVacia": "Escribe aquí",
-  "tablaGuardada": "Lo que escribas se guarda solo en este navegador.",
-  "tablaBorrar": "Vaciar la tabla",
-  "tablaBorrada": "Tabla vaciada.",
+  "tablaGuardada": "Lo que escribas se guarda en este navegador. Para entregarlo o seguir en otro equipo, descárgalo o cópialo.",
+  "tablaWord": "Descargar para Word",
+  "tablaCsv": "Descargar hoja de cálculo",
+  "tablaCopiar": "Copiar la tabla",
+  "tablaDescargada": "Tabla descargada.",
+  "tablaCopiada": "Tabla copiada: pégala en tu documento.",
+  "tablaNoCopiada": "No se ha podido copiar: usa «Descargar para Word».",
   "seleccionada": "(seleccionada)"
  },
  "imagenes": {
@@ -1173,6 +1177,8 @@ window.UD_DATOS = {
       {
        "tablaTrabajo": {
         "clave": "sa1-s5-condiciones",
+        "archivo": "Sesion-5-condiciones-de-trabajo",
+        "titulo": "b) Analizamos las condiciones de trabajo:",
         "cabeceras": [
          "",
          "Oviedo (1900)",
@@ -1262,6 +1268,8 @@ window.UD_DATOS = {
       {
        "tablaTrabajo": {
         "clave": "sa1-s6-grupos",
+        "archivo": "Sesion-6-primeros-grupos-femeninos",
+        "titulo": "b) Síntesis de los datos de los primeros grupos:",
         "cabeceras": [
          "Localidad",
          "Fecha aproximada",

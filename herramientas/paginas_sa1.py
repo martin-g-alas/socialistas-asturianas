@@ -98,7 +98,6 @@ def pie(actual, sesion=None):
 
   <footer class="ud-pie-u">
     <a href="creditos.html">Fuentes y créditos</a>
-    <p>Ilustración: Alfonso Zapico</p>
   </footer>'''
 
 

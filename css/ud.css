@@ -1326,7 +1326,9 @@
 .ud-pagina.ud-unidad .ud-trabajo__pie { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
 .ud-pagina.ud-unidad .ud-boton--borde { background: #fff; color: var(--u-tinta); border: 1px solid var(--u-tinta); padding: 10px 16px; }
 .ud-pagina.ud-unidad .ud-boton--borde:hover { background: var(--u-tinta); color: #fff; }
-.ud-pagina.ud-unidad .ud-trabajo__nota { margin: 0; font-size: 13px; color: var(--u-gris); }
+.ud-pagina.ud-unidad .ud-trabajo__botones { display: flex; flex-wrap: wrap; gap: 8px; }
+.ud-pagina.ud-unidad .ud-trabajo__estado { min-height: 1.4em; margin: 10px 0 0; font-size: 13px; color: var(--u-verde); }
+.ud-pagina.ud-unidad .ud-trabajo__nota { margin: 0; max-width: 30em; font-size: 13px; color: var(--u-gris); }
 
 /* Marco curricular */
 .ud-pagina.ud-unidad .ud-marco-curricular__apartado { padding: 40px 0; border-top: 1px solid var(--u-linea); }
