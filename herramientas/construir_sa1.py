@@ -329,10 +329,11 @@ IMG["prensa_oviedo"] = {"src": "../img/sa1/el-socialista-1900-oviedo.jpg", "alt"
 IMG["prensa_gijon"] = {"src": "../img/sa1/el-socialista-gijon-tejedoras.jpg", "alt": "Recorte de prensa: las tejedoras de Gijón mantienen su huelga.",
                        "titulo": "El Socialista · huelga de las tejedoras de Gijón (recorte)", "autor": "El Socialista", "fecha": "", "licencia": "Dominio público",
                        "fuente": "", "estado": "libre", "estadoTexto": "Libre", "w": 436, "h": 338}
-# Josefa Amar y Borbón: grabado facilitado por la autoría de la unidad (procedencia por confirmar).
+# Josefa Amar y Borbón: grabado tomado de la Biblioteca de Aragón (licencia sin comprobar).
 IMG["amar"] = {"src": "../img/sa1/amar.jpg", "alt": "Grabado: retrato de una mujer sentada, con collar y vestido de hombros descubiertos.",
-               "titulo": "Josefa de Amar y Borbón (grabado)", "autor": "Grabado facilitado por la autoría de la unidad", "fecha": "",
-               "licencia": "Procedencia por confirmar", "fuente": "", "estado": "libre", "estadoTexto": "Por confirmar", "w": 520, "h": 627}
+               "titulo": "Josefa de Amar y Borbón (grabado)", "autor": "Biblioteca de Aragón", "fecha": "",
+               "licencia": "", "fuente": "https://bibliotecadearagon.es/referencias/vaya-tres-grabacion-sonora/",
+               "estado": "libre", "estadoTexto": "Licencia por confirmar", "w": 520, "h": 627}
 IMG["mapa_zona"] = {"src": "../img/sa1/mapa-asturias-zona.png", "alt": "Mapa mudo de la zona central de Asturias con los límites de los concejos y seis puntos numerados.",
                     "titulo": "Mapa de concejos de Asturias (zona central)", "sinCredito": True, "estado": "libre", "w": 660, "h": 624}
 IMG["mapa_situacion"] = {"src": "../img/sa1/mapa-asturias-situacion.png", "alt": "Mapa de situación: Asturias entera con un recuadro en la zona central ampliada.",
