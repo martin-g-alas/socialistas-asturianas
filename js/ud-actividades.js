@@ -704,7 +704,7 @@
     portada: function (b) {
       var s = seccion(b, "ud-portada");
       var izq = el("div", "ud-portada__imagen");
-      izq.appendChild(figura(b.imagen, "ud-figura--portada ud-marco"));
+      izq.appendChild(figura(b.imagen, "ud-figura--portada ud-fundido-lateral"));
       var der = el("div", "ud-portada__texto");
       der.appendChild(el("p", "ud-antetitulo", b.etiqueta));
       der.appendChild(tituloDosTonos("h1", "ud-portada__titulo", b.titulo));
@@ -1152,7 +1152,7 @@
     var b = sesiones[i];
     document.title = b.etiqueta + " · " + b.titulo + " · " + (D.unidad.tituloPagina || "");
     var exterior = el("div", "ud-sesion-ilustracion");
-    var cab = el("figure", "ud-marco");
+    var cab = el("figure", "ud-fundido");
     exterior.appendChild(cab);
     var ilu = el("img", "ud-sesion-ilustracion__imagen");
     ilu.alt = b.ilustracionAlt || "";

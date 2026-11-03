@@ -1529,3 +1529,43 @@
   .ud-pagina.ud-unidad .ud-retrato--sin-ilustracion .ud-retrato__foto { max-width: 100%; flex-basis: 100%; }
   .ud-pagina.ud-unidad .ud-menu .ud-submenu a { padding-left: 28px; }
 }
+
+/* ---------- imágenes fundidas a blanco (sustituyen al marco) ---------- */
+
+/* Cabecera de sesión: a todo el ancho, se desvanece hacia abajo y el título se apoya en la zona blanca. */
+.ud-pagina.ud-unidad .ud-sesion-ilustracion { display: block; padding: 0; background: #fff; }
+.ud-pagina.ud-unidad .ud-fundido { position: relative; margin: 0; }
+.ud-pagina.ud-unidad .ud-fundido .ud-sesion-ilustracion__imagen {
+  display: block; width: 100%; height: clamp(260px, 40vw, 520px); max-height: none;
+  object-fit: cover; object-position: 50% 35%; filter: saturate(0.2);
+  -webkit-mask-image: linear-gradient(to bottom, #000 30%, rgba(0, 0, 0, 0.35) 68%, transparent 90%);
+  mask-image: linear-gradient(to bottom, #000 30%, rgba(0, 0, 0, 0.35) 68%, transparent 90%);
+}
+.ud-pagina.ud-unidad .ud-fundido .ud-sesion-ilustracion__credito {
+  top: 14px; right: 14px; bottom: auto; color: var(--u-tinta); background: rgba(255, 255, 255, 0.85);
+}
+.ud-pagina.ud-unidad .ud-fundido .ud-sesion-ilustracion__credito a { color: var(--u-tinta); }
+.ud-pagina.ud-unidad .ud-sesion-ilustracion--pendiente { display: none; }
+.ud-pagina.ud-unidad .ud-sesion-ilustracion:not(.ud-sesion-ilustracion--pendiente) + .ud-sesion .ud-sesion__cabecera {
+  position: relative; margin-top: clamp(-96px, -7vw, -40px); padding-top: 0;
+}
+
+/* Portada de la situación: la imagen se funde hacia el texto, sobre blanco, como la rosa de la portada general. */
+.ud-pagina.ud-unidad .ud-portada__imagen { padding: 48px 0 48px 6%; }
+.ud-pagina.ud-unidad .ud-portada__texto { background: #fff; border-left: 1px solid #efe4e4; }
+.ud-pagina.ud-unidad .ud-fundido-lateral { margin: 0; }
+.ud-pagina.ud-unidad .ud-fundido-lateral .ud-imagen {
+  -webkit-mask-image: linear-gradient(to right, #000 60%, transparent 100%);
+  mask-image: linear-gradient(to right, #000 60%, transparent 100%);
+}
+.ud-pagina.ud-unidad .ud-fundido-lateral .ud-figura__pie { margin-top: 10px; }
+
+@media (max-width: 767.98px) {
+  .ud-pagina.ud-unidad .ud-fundido .ud-sesion-ilustracion__credito { top: 8px; right: 8px; }
+  .ud-pagina.ud-unidad .ud-portada__imagen { padding: 24px 0 0; }
+  .ud-pagina.ud-unidad .ud-portada__texto { border-left: 0; }
+  .ud-pagina.ud-unidad .ud-fundido-lateral .ud-imagen {
+    -webkit-mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
+  }
+}
