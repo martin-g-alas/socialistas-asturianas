@@ -1268,12 +1268,22 @@
 .ud-pagina.ud-unidad .ud-banda { display: flex; flex-wrap: wrap; background: var(--u-oscuro); color: #fff; }
 .ud-pagina.ud-unidad .ud-banda__texto { flex: 1 1 480px; padding: 80px 8%; }
 .ud-pagina.ud-unidad .ud-banda__texto .ud-parrafo { color: #e0e0e0; font-size: 17px; font-weight: 300; max-width: 32em; }
-.ud-pagina.ud-unidad .ud-banda__foto { position: relative; flex: 1 1 420px; min-height: 320px; margin: 0; background: #444; }
-.ud-pagina.ud-unidad .ud-banda__foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1); }
-.ud-pagina.ud-unidad .ud-banda__foto figcaption {
-  position: absolute; right: 12px; bottom: 12px; padding: 4px 10px; font-size: 11px; color: var(--u-tinta); background: rgba(255, 255, 255, 0.85);
+/* Foto de la franja: tenue y fundida con el fondo oscuro, sin bordes de recuadro */
+.ud-pagina.ud-unidad .ud-banda { position: relative; overflow: hidden; }
+.ud-pagina.ud-unidad .ud-banda__texto { position: relative; z-index: 1; }
+.ud-pagina.ud-unidad .ud-banda__foto { position: relative; flex: 1 1 420px; min-height: 320px; margin: 0; background: transparent; }
+.ud-pagina.ud-unidad .ud-banda__foto img {
+  position: absolute; top: 10%; right: 6%; bottom: 10%; left: 0; width: 94%; height: 80%; object-fit: cover; object-position: 30% 50%;
+  filter: grayscale(1); opacity: 0.3; mix-blend-mode: screen;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%, #000 80%, transparent 100%), linear-gradient(to bottom, transparent 0%, #000 25%, #000 75%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent 0%, #000 45%, #000 80%, transparent 100%), linear-gradient(to bottom, transparent 0%, #000 25%, #000 75%, transparent 100%);
+  mask-composite: intersect;
 }
-.ud-pagina.ud-unidad .ud-banda__foto figcaption a { color: var(--u-tinta); }
+.ud-pagina.ud-unidad .ud-banda__foto figcaption {
+  position: absolute; right: 16px; bottom: 12px; font-size: 11px; color: #bdbdbd;
+}
+.ud-pagina.ud-unidad .ud-banda__foto figcaption a { color: #bdbdbd; }
 
 /* ---------- situación de aprendizaje: piezas nuevas ---------- */
 
