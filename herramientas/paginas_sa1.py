@@ -120,8 +120,7 @@ def pagina(nombre, titulo, cuerpo_attr, actual, sesion=None):
   <!-- CABECERA COMÚN (igual en todas las páginas de la situación de aprendizaje) -->
   <header class="ud-cab">
     <a class="ud-cab__marca" href="../index.html">
-      <img class="ud-cab__rosa" src="../img/rosa-web.png" width="782" height="900" alt="" aria-hidden="true">
-      <img class="ud-cab__texto" src="../img/texto.png" width="617" height="220" alt="Socialistas asturianas. De la emancipación a la conquista de la democracia. 1936-1977. La emancipación. El camino hacia el socialismo">
+      <img class="ud-cab__logo" src="../img/logo.webp" width="1000" height="452" alt="Socialistas asturianas 1936-1977. De la emancipación a la conquista de la democracia">
     </a>
 {menu(actual, sesion)}
   </header>
