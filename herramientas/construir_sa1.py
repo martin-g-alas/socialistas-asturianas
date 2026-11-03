@@ -301,7 +301,7 @@ marco = [
     {"id": "intencion", "titulo": T("Intención educativa"), "contenido": [T("La conquista de los derechos"), T("A través de figuras como"), T("Esta situación de aprendizaje pretende")]},
     {"id": "ods", "titulo": T("Relación con ODS 2030"), "contenido": [T("Con esta situación de aprendizaje se espera"),
                                                                     lista(["ODS n.º 5.", "Reto siglo XXI n.º 4:", "Reto siglo XXI n.º 9:"]),
-                                                                    T("Esta situación de aprendizaje se plantea para ocho")]},
+                                                                    T("Esta situación de aprendizaje se plantea para siete")]},
     {"id": "elementos", "titulo": T("CONEXIÓN CON LOS ELEMENTOS CURRICULARES"),
      "tabla": {"cabeceras": [T("Competencias específicas"), T("Criterios de evaluación"), T("Descriptores del perfil de salida")],
                "filas": [

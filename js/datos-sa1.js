@@ -527,7 +527,7 @@ window.UD_DATOS = {
      "etiqueta": "Materia"
     },
     {
-     "valor": "6 sesiones",
+     "valor": "7 sesiones",
      "etiqueta": "Temporalización"
     }
    ]
@@ -1513,7 +1513,7 @@ window.UD_DATOS = {
         ]
        ]
       },
-      "Esta situación de aprendizaje se plantea para ocho sesiones orientadas a 4º de la ESO si bien se podría desarrollar en los diferentes cursos de secundaria."
+      "Esta situación de aprendizaje se plantea para siete sesiones orientadas a 4º de la ESO si bien se podría desarrollar en los diferentes cursos de secundaria."
      ]
     },
     {
