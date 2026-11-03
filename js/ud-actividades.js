@@ -702,9 +702,9 @@
   var bloques = {
 
     portada: function (b) {
-      var s = seccion(b, "ud-portada");
-      var izq = el("div", "ud-portada__imagen");
-      izq.appendChild(figura(b.imagen, "ud-figura--portada ud-fundido-lateral"));
+      // Mismo formato que las sesiones: imagen fundida a blanco y el texto apoyado debajo.
+      var s = seccion(b, "ud-portada ud-portada--fundida");
+      var izq = cabeceraFundida(b.imagen);
       var der = el("div", "ud-portada__texto");
       der.appendChild(el("p", "ud-antetitulo", b.etiqueta));
       der.appendChild(tituloDosTonos("h1", "ud-portada__titulo", b.titulo));
@@ -1144,6 +1144,35 @@
     return svg;
   }
 
+  /* Imagen de cabecera a todo el ancho que se funde hacia el blanco
+     (sesiones y portada de la situación). Sin imagen, no deja hueco. */
+  function cabeceraFundida(ref) {
+    var exterior = el("div", "ud-sesion-ilustracion");
+    var cab = el("figure", "ud-fundido");
+    exterior.appendChild(cab);
+    function pendiente() {
+      cab.textContent = "";
+      exterior.classList.add("ud-sesion-ilustracion--pendiente");
+    }
+    var d = ref ? datoImagen(ref) : null;
+    if (d && d.src && d.estado !== "pendiente") {
+      var ilu = el("img", "ud-sesion-ilustracion__imagen");
+      ilu.alt = d.alt || "";
+      if (d.w && d.h) { ilu.width = d.w; ilu.height = d.h; }
+      ilu.onerror = pendiente;
+      ilu.src = d.src;
+      cab.appendChild(ilu);
+      if (d.autor || d.licencia) {
+        var cr = pieCredito(d);
+        cr.className = "ud-sesion-ilustracion__credito";
+        cab.appendChild(cr);
+      }
+    } else {
+      pendiente();
+    }
+    return exterior;
+  }
+
   /* Página de una sesión: ilustración arriba, contenidos y navegación. */
   function iniciarSesion(cont, n) {
     var sesiones = D.bloques.filter(function (b) { return b.tipo === "sesion"; });
@@ -1151,36 +1180,7 @@
     if (i < 0) { mostrarAviso(); return; }
     var b = sesiones[i];
     document.title = b.etiqueta + " · " + b.titulo + " · " + (D.unidad.tituloPagina || "");
-    var exterior = el("div", "ud-sesion-ilustracion");
-    var cab = el("figure", "ud-fundido");
-    exterior.appendChild(cab);
-    var ilu = el("img", "ud-sesion-ilustracion__imagen");
-    ilu.alt = b.ilustracionAlt || "";
-    function pendiente() {
-      cab.textContent = "";
-      exterior.classList.add("ud-sesion-ilustracion--pendiente");
-      cab.appendChild(el("span", "ud-pendiente__texto", T.ilustracionPendiente));
-    }
-    var dIlu = b.ilustracionImagen ? datoImagen(b.ilustracionImagen) : null;
-    if (dIlu && dIlu.src) {
-      ilu.alt = dIlu.alt || "";
-      if (dIlu.w && dIlu.h) { ilu.width = dIlu.w; ilu.height = dIlu.h; }
-      ilu.onerror = pendiente;
-      ilu.src = dIlu.src;
-      cab.appendChild(ilu);
-      if (dIlu.autor || dIlu.licencia) {
-        var cr = pieCredito(dIlu);
-        cr.className = "ud-sesion-ilustracion__credito";
-        cab.appendChild(cr);
-      }
-    } else if (b.ilustracion) {
-      ilu.onerror = pendiente;
-      ilu.src = b.ilustracion;
-      cab.appendChild(ilu);
-    } else {
-      pendiente();
-    }
-    cont.appendChild(exterior);
+    cont.appendChild(cabeceraFundida(b.ilustracionImagen));
     cont.appendChild(bloques.sesion(b));
     // Bloques que la unidad sitúa al final de esta sesión (p. ej., el producto final).
     D.bloques.forEach(function (x) {

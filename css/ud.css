@@ -1569,3 +1569,25 @@
     mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
   }
 }
+
+/* Portada de la situación con el mismo formato que las sesiones */
+.ud-pagina.ud-unidad .ud-portada--fundida { display: block; min-height: 0; }
+.ud-pagina.ud-unidad .ud-portada--fundida .ud-portada__texto {
+  display: block; position: relative; padding: 64px var(--u-margen) 72px; background: transparent; border-left: 0;
+}
+.ud-pagina.ud-unidad .ud-portada--fundida .ud-sesion-ilustracion:not(.ud-sesion-ilustracion--pendiente) + .ud-portada__texto {
+  margin-top: clamp(-96px, -7vw, -40px); padding-top: 0;
+}
+.ud-pagina.ud-unidad .ud-portada--fundida .ud-fundido .ud-sesion-ilustracion__imagen { filter: grayscale(1); }
+.ud-pagina.ud-unidad .ud-portada--fundida .ud-portada__titulo { max-width: 22em; font-size: 44px; }
+
+/* Página en caja: ancho limitado y filete gris, como las maquetas */
+html { background: #fff; }
+.ud-pagina.ud-unidad.ud-caja { max-width: 1240px; margin: 24px auto; border: 1px solid var(--u-linea); --u-margen: 64px; }
+@media (max-width: 1288px) {
+  .ud-pagina.ud-unidad.ud-caja { margin: 24px; }
+}
+@media (max-width: 767.98px) {
+  .ud-pagina.ud-unidad.ud-caja { margin: 0; border: 0; --u-margen: 16px; }
+  .ud-pagina.ud-unidad .ud-portada--fundida .ud-portada__titulo { font-size: 30px; }
+}

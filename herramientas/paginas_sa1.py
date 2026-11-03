@@ -113,7 +113,7 @@ def pagina(nombre, titulo, cuerpo_attr, actual, sesion=None):
   <script src="../js/ud-menu.js" defer></script>
   <script src="../js/ud-actividades.js" defer></script>
 </head>
-<body class="ud-pagina ud-unidad"{cuerpo_attr}>
+<body class="ud-pagina ud-unidad ud-caja"{cuerpo_attr}>
 
   <a class="ud-saltar" href="#ud-contenido">Ir al contenido</a>
 
