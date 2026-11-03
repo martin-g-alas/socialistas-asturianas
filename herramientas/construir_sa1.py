@@ -13,14 +13,18 @@ CORRECCIONES = [
     ("11-10-1910", "11-10-1913"),                                      # fecha de El Socialista, documento 2
     ("individual de empatía histórica:", "de empatía histórica:"),     # «2. Actividad de empatía histórica»
     (" causa, deberéis preparar ", " causa, deberéis preparar un "),   # «preparar un elemento visual»
-    ("8", "6"),                                                        # temporalización: 6 sesiones
+    ("8", "7"),                                                        # temporalización: 7 sesiones
+    ("se plantea para ocho sesiones", "se plantea para siete sesiones"),  # Relación con ODS 2030
 ]
 for viejo, nuevo in CORRECCIONES:
-    sitios = [s for p in P for s in p["segs"] if s["t"] == viejo and not s.get("rojo")]
     if viejo == "8":  # el «8» suelto solo en la temporalización («8 sesiones»)
         sitios = [p["segs"][0] for p in P if "".join(x["t"] for x in p["segs"]).strip() == "8 sesiones"]
+    elif " " in viejo.strip() and len(viejo) > 25:  # frase dentro de un tramo más largo
+        sitios = [s for p in P for s in p["segs"] if viejo in s["t"] and not s.get("rojo")]
+    else:
+        sitios = [s for p in P for s in p["segs"] if s["t"] == viejo and not s.get("rojo")]
     assert len(sitios) == 1, (viejo, len(sitios))
-    sitios[0]["t"] = nuevo
+    sitios[0]["t"] = sitios[0]["t"].replace(viejo, nuevo) if viejo in sitios[0]["t"] and sitios[0]["t"] != viejo else nuevo
 for p in P:
     p["texto"] = "".join(s["t"] for s in p["segs"])
 V = json.load(open(sys.argv[2], encoding="utf8"))
@@ -323,7 +327,7 @@ sa = {
         {"clave": T("Etapa"), "valor": T("Educación") + " " + T("Secundaria Obligatoria")},
         {"clave": T("Curso"), "valor": T("4.º ESO")},
         {"clave": T("Materia"), "valor": T("Geografía e Historia")},
-        {"clave": T("Temporalización"), "valor": T("6 sesiones")},
+        {"clave": T("Temporalización"), "valor": T("7 sesiones")},
     ],
     "interdisciplinar": {"clave": T("Relación interdisciplinar entre áreas"), "valor": T("En esta situación de aprendizaje, dado que")},
     "secuenciacion": T("SECUENCIACIÓN DIDÁCTICA"),
