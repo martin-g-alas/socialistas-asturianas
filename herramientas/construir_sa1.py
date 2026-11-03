@@ -362,9 +362,6 @@ IMG["mapa_zona"] = {"src": "../img/sa1/mapa-asturias-zona.png", "alt": "Mapa mud
 IMG["mapa_situacion"] = {"src": "../img/sa1/mapa-asturias-situacion.png", "alt": "Mapa de situación: Asturias entera con un recuadro en la zona central ampliada.",
                          "titulo": "Mapa de situación de Asturias", "sinCredito": True, "estado": "libre", "w": 500, "h": 172}
 EXPOSICION = "Exposición «Cartas de exiliadas. El legado de la palabra y la escritura (1939-1975)» · Fundación José Barreiro"
-IMG["cabecera_s5"] = {"src": "../img/sa1/sesiones/sesion-5-cartas.jpg", "alt": "Cartas manuscritas y mecanografiadas de exiliadas, con sus sobres.",
-                      "titulo": "Cartas de exiliadas (montaje)", "autor": EXPOSICION, "fecha": "1939-1975", "licencia": "",
-                      "fuente": "", "estado": "libre", "estadoTexto": "Cedida", "decorativa": True, "w": 1300, "h": 640}
 IMG["carta_exiliada"] = {"src": "../img/sa1/carta-exiliada.jpg", "alt": "Carta manuscrita de una exiliada sobre papel cuadriculado, junto a su sobre.",
                          "titulo": "Carta de exiliada", "autor": EXPOSICION, "fecha": "", "licencia": "",
                          "fuente": "", "estado": "libre", "estadoTexto": "Cedida", "w": 260, "h": 300}

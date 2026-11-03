@@ -408,19 +408,19 @@ window.UD_DATOS = {
    "h": 640
   },
   "cabecera_s5": {
-   "src": "../img/sa1/sesiones/sesion-5-cartas.jpg",
-   "alt": "Cartas manuscritas y mecanografiadas de exiliadas, con sus sobres.",
-   "titulo": "Cartas de exiliadas (montaje)",
-   "autor": "Exposición «Cartas de exiliadas. El legado de la palabra y la escritura (1939-1975)» · Fundación José Barreiro",
-   "fecha": "1939-1975",
-   "licencia": "",
-   "fuente": "",
+   "src": "../img/sa1/sesiones/sesion-5.jpg",
+   "alt": "Una fábrica textil con largas filas de máquinas de hilar.",
+   "titulo": "Man Girl Spinning Machine, South",
+   "autor": "thegetty",
+   "fecha": "",
+   "licencia": "CC0",
+   "fuente": "https://www.rawpixel.com/image/14256773/man-with-girl-spinning-machine-south-carolina-cotton-mill-lewis-hine",
+   "sesion": "Sesión 5 · cabecera",
    "estado": "libre",
-   "estadoTexto": "Cedida",
+   "estadoTexto": "Libre",
    "decorativa": true,
-   "w": 1300,
-   "h": 640,
-   "sesion": "Sesión 5 · cabecera"
+   "w": 1024,
+   "h": 762
   },
   "cabecera_s6": {
    "src": "../img/sa1/sesiones/sesion-6-el-socialista.jpg",
