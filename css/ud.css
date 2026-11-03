@@ -1268,8 +1268,12 @@
 .ud-pagina.ud-unidad .ud-banda { display: flex; flex-wrap: wrap; background: var(--u-oscuro); color: #fff; }
 .ud-pagina.ud-unidad .ud-banda__texto { flex: 1 1 480px; padding: 80px 8%; }
 .ud-pagina.ud-unidad .ud-banda__texto .ud-parrafo { color: #e0e0e0; font-size: 17px; font-weight: 300; max-width: 32em; }
-.ud-pagina.ud-unidad .ud-banda__foto { flex: 1 1 420px; min-height: 320px; background: #444; display: flex; align-items: flex-end; padding: 24px; }
-.ud-pagina.ud-unidad .ud-banda__foto span { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #e0e0e0; }
+.ud-pagina.ud-unidad .ud-banda__foto { position: relative; flex: 1 1 420px; min-height: 320px; margin: 0; background: #444; }
+.ud-pagina.ud-unidad .ud-banda__foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1); }
+.ud-pagina.ud-unidad .ud-banda__foto figcaption {
+  position: absolute; right: 12px; bottom: 12px; padding: 4px 10px; font-size: 11px; color: var(--u-tinta); background: rgba(255, 255, 255, 0.85);
+}
+.ud-pagina.ud-unidad .ud-banda__foto figcaption a { color: var(--u-tinta); }
 
 /* ---------- situación de aprendizaje: piezas nuevas ---------- */
 
