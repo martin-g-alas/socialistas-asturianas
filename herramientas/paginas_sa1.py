@@ -4,6 +4,15 @@ import html, json, os, re, sys
 
 RAIZ = sys.argv[1]
 texto = open(os.path.join(RAIZ, "js/datos-sa1.js"), encoding="utf8").read()
+
+
+def version(ruta):
+    """Huella corta del archivo: cambia cuando cambia el archivo, para que el navegador no use una copia vieja."""
+    import hashlib
+    return hashlib.md5(open(os.path.join(RAIZ, ruta), "rb").read()).hexdigest()[:8]
+
+
+V = {r: version(r) for r in ("css/ud.css", "js/datos-sa1.js", "js/ud-menu.js", "js/ud-actividades.js")}
 D = json.loads(texto[texto.index("{"):texto.rstrip().rstrip(";").rindex("}") + 1])
 sesiones = [b for b in D["bloques"] if b["tipo"] == "sesion"]
 marco = next(b for b in D["bloques"] if b["tipo"] == "marco")
@@ -108,10 +117,10 @@ def pagina(nombre, titulo, cuerpo_attr, actual, sesion=None):
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(titulo)}</title>
-  <link rel="stylesheet" href="../css/ud.css">
-  <script src="../js/datos-sa1.js" defer></script>
-  <script src="../js/ud-menu.js" defer></script>
-  <script src="../js/ud-actividades.js" defer></script>
+  <link rel="stylesheet" href="../css/ud.css?v={V["css/ud.css"]}">
+  <script src="../js/datos-sa1.js?v={V["js/datos-sa1.js"]}" defer></script>
+  <script src="../js/ud-menu.js?v={V["js/ud-menu.js"]}" defer></script>
+  <script src="../js/ud-actividades.js?v={V["js/ud-actividades.js"]}" defer></script>
 </head>
 <body class="ud-pagina ud-unidad ud-caja"{cuerpo_attr}>
 
