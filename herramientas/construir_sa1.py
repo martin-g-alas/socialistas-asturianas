@@ -320,6 +320,9 @@ IMG["prensa_oviedo"] = {"src": "../img/sa1/el-socialista-1900-oviedo.jpg", "alt"
 IMG["prensa_gijon"] = {"src": "../img/sa1/el-socialista-gijon-tejedoras.jpg", "alt": "Recorte de prensa: las tejedoras de Gijón mantienen su huelga.",
                        "titulo": "El Socialista · huelga de las tejedoras de Gijón (recorte)", "autor": "El Socialista", "fecha": "", "licencia": "Dominio público",
                        "fuente": "", "estado": "libre", "estadoTexto": "Libre", "w": 436, "h": 338}
+IMG["cabecera_s2"] = {"src": "../img/sa1/sesiones/sesion-2-urna.jpg", "alt": "Acuarela de una urna electoral de cristal dentro de un armazón de madera.",
+                      "titulo": "Ballot Box (urna electoral), acuarela, c. 1939", "autor": "Rose Campbell-Gerke · Index of American Design, National Gallery of Art", "fecha": "c. 1939", "licencia": "CC0",
+                      "fuente": "https://www.rawpixel.com/image/8232391/image-art-vintage-public-domain", "estado": "libre", "estadoTexto": "Libre", "decorativa": True, "w": 1600, "h": 760}
 IMG["cabecera_s6"] = {"src": "../img/sa1/sesiones/sesion-6-el-socialista.jpg", "alt": "Portada de El Socialista del 11 de octubre de 1913.",
                       "titulo": "El Socialista, núm. 1601, 11-10-1913 (portada)", "autor": "El Socialista", "fecha": "1913", "licencia": "Dominio público",
                       "fuente": "", "estado": "libre", "estadoTexto": "Libre", "decorativa": True, "w": 1200, "h": 800}

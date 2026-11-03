@@ -357,19 +357,19 @@ window.UD_DATOS = {
    "h": 683
   },
   "cabecera_s2": {
-   "src": "../img/sa1/sesiones/sesion-2.jpg",
-   "alt": "Una gran manifestación de mujeres con pancartas llena una avenida.",
-   "titulo": "Women’s March 2017 - Pennsylvania",
-   "autor": "Rawpixel",
-   "fecha": "",
+   "src": "../img/sa1/sesiones/sesion-2-urna.jpg",
+   "alt": "Acuarela de una urna electoral de cristal dentro de un armazón de madera.",
+   "titulo": "Ballot Box (urna electoral), acuarela, c. 1939",
+   "autor": "Rose Campbell-Gerke · Index of American Design, National Gallery of Art",
+   "fecha": "c. 1939",
    "licencia": "CC0",
-   "fuente": "https://www.rawpixel.com/image/3284702/free-photo-image-protest-america-2017",
-   "sesion": "Sesión 2 · cabecera",
+   "fuente": "https://www.rawpixel.com/image/8232391/image-art-vintage-public-domain",
    "estado": "libre",
    "estadoTexto": "Libre",
    "decorativa": true,
-   "w": 1024,
-   "h": 530
+   "w": 1600,
+   "h": 760,
+   "sesion": "Sesión 2 · cabecera"
   },
   "cabecera_s3": {
    "src": "../img/sa1/sesiones/sesion-3.jpg",
