@@ -275,16 +275,114 @@
         a.href = it.href || "#" + it.ancla;
         padre.appendChild(a);
       } else if (it.retratos) {
-        var rr = el("div", "ud-retratos");
+        // Sin ilustraciones, los retratos van en rejilla; con ellas, uno por fila y en grande.
+        var conIlustracion = it.retratos.some(function (x) { return x.ilustracion; });
+        var rr = el("div", "ud-retratos" + (conIlustracion ? "" : " ud-retratos--rejilla"));
         it.retratos.forEach(function (x) { rr.appendChild(retrato(x)); });
         padre.appendChild(rr);
       } else if (it.nota) {
         padre.appendChild(el("p", "ud-nota", it.nota));
       } else if (it.plegable) {
         padre.appendChild(plegable(it.plegable, it.items));
+      } else if (it.documento) {
+        padre.appendChild(documento(it.documento));
+      } else if (it.noticias) {
+        padre.appendChild(noticias(it.noticias));
+      } else if (it.tablaTrabajo) {
+        padre.appendChild(tablaTrabajo(it.tablaTrabajo));
       }
     });
     return padre;
+  }
+
+  /* Texto de época presentado como documento: título, párrafos, nota,
+     resoluciones y fuente. */
+  function documento(x) {
+    var d = el("div", "ud-documento");
+    if (x.titulo) { d.appendChild(el("p", "ud-documento__titulo", x.titulo)); }
+    (x.parrafos || []).forEach(function (t) { d.appendChild(parrafo(t, "ud-documento__parrafo")); });
+    if (x.nota) { d.appendChild(parrafo(x.nota, "ud-documento__nota")); }
+    if (x.resoluciones) {
+      var r = el("div", "ud-documento__resoluciones");
+      x.resoluciones.forEach(function (t) { r.appendChild(parrafo(t, "ud-documento__resolucion")); });
+      d.appendChild(r);
+    }
+    if (x.fuente) { d.appendChild(parrafo(x.fuente, "ud-documento__fuente")); }
+    return d;
+  }
+
+  /* Noticias de prensa: título, fecha, resumen y recorte. */
+  function noticias(lista) {
+    var g = el("div", "ud-noticias");
+    lista.forEach(function (n) {
+      var a = el("article", "ud-noticia");
+      a.appendChild(el("h4", "ud-noticia__titulo", n.titulo));
+      if (n.fecha) { a.appendChild(el("p", "ud-noticia__fecha", n.fecha)); }
+      if (n.resumen) { a.appendChild(parrafo(n.resumen, "ud-parrafo")); }
+      if (n.imagen) { a.appendChild(figura(n.imagen, "ud-noticia__recorte")); }
+      g.appendChild(a);
+    });
+    return g;
+  }
+
+  /* Tabla para rellenar: lo escrito se guarda solo en este navegador. */
+  function tablaTrabajo(x) {
+    var caja = el("div", "ud-trabajo");
+    var envoltorio = el("div", "ud-tabla-caja ud-trabajo__caja");
+    var t = el("table", "ud-tabla ud-trabajo__tabla");
+    var thead = el("thead");
+    var tr = el("tr");
+    x.cabeceras.forEach(function (c) { var th = el("th", null, c); th.scope = "col"; tr.appendChild(th); });
+    thead.appendChild(tr);
+    t.appendChild(thead);
+    var tb = el("tbody");
+    var campos = [];
+    var guardado = {};
+    try { guardado = JSON.parse(localStorage.getItem("ud-tabla-" + x.clave) || "{}") || {}; } catch (e) { guardado = {}; }
+    function guardar() {
+      var datos = {};
+      campos.forEach(function (c) { if (c.value) { datos[c.dataset.clave] = c.value; } });
+      try { localStorage.setItem("ud-tabla-" + x.clave, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ }
+    }
+    x.filas.forEach(function (fila, i) {
+      var r = el("tr");
+      var th = el("th", "ud-trabajo__fila", fila);
+      th.scope = "row";
+      th.setAttribute("data-etiqueta", x.cabeceras[0]);
+      r.appendChild(th);
+      for (var k = 1; k < x.cabeceras.length; k++) {
+        var td = el("td");
+        td.setAttribute("data-etiqueta", x.cabeceras[k]);
+        var area = el("textarea", "ud-trabajo__campo");
+        area.rows = 2;
+        area.dataset.clave = i + "-" + k;
+        area.placeholder = T.tablaVacia || "";
+        area.setAttribute("aria-label", fila + " · " + x.cabeceras[k]);
+        if (guardado[area.dataset.clave]) { area.value = guardado[area.dataset.clave]; }
+        area.addEventListener("input", guardar);
+        campos.push(area);
+        td.appendChild(area);
+        r.appendChild(td);
+      }
+      tb.appendChild(r);
+    });
+    t.appendChild(tb);
+    envoltorio.appendChild(t);
+    caja.appendChild(envoltorio);
+    var pie = el("div", "ud-trabajo__pie");
+    pie.appendChild(el("p", "ud-trabajo__nota", T.tablaGuardada));
+    var vaciar = boton(T.tablaBorrar, "ud-boton ud-boton--borde");
+    var estado = el("p", "ud-oculto");
+    estado.setAttribute("aria-live", "polite");
+    vaciar.addEventListener("click", function () {
+      campos.forEach(function (c) { c.value = ""; });
+      guardar();
+      estado.textContent = T.tablaBorrada;
+    });
+    pie.appendChild(vaciar);
+    pie.appendChild(estado);
+    caja.appendChild(pie);
+    return caja;
   }
 
   function plegable(titulo, items) {
@@ -544,6 +642,7 @@
       var der = el("div", "ud-portada__texto");
       der.appendChild(el("p", "ud-antetitulo", b.etiqueta));
       der.appendChild(tituloDosTonos("h1", "ud-portada__titulo", b.titulo));
+      if (b.subtitulo) { der.appendChild(parrafo(b.subtitulo, "ud-portada__subtitulo")); }
       der.appendChild(raya());
       (b.datos || []).forEach(function (d) {
         var p = el("p", "ud-portada__dato");
@@ -557,7 +656,7 @@
     },
 
     cifras: function (b) {
-      var s = seccion(b, "ud-cifras");
+      var s = seccion(b, "ud-cifras" + (b.clase ? " " + b.clase : ""));
       if (b.etiquetaAccesible) { s.setAttribute("aria-label", b.etiquetaAccesible); }
       b.items.forEach(function (c) {
         var d = el("div", "ud-cifra");
@@ -593,6 +692,7 @@
         a.href = it.href || "#" + it.ancla;
         a.appendChild(el("span", "ud-tarjeta-sesion__num", it.num));
         a.appendChild(el("span", "ud-tarjeta-sesion__titulo", it.titulo));
+        if (it.texto) { a.appendChild(el("span", "ud-tarjeta-sesion__texto", it.texto)); }
         g.appendChild(a);
       });
       s.appendChild(g);
@@ -605,6 +705,7 @@
       cab.appendChild(el("p", "ud-antetitulo", b.etiqueta));
       cab.appendChild(tituloDosTonos("h2", "ud-titulo", b.titulo));
       cab.appendChild(raya());
+      if (b.intro) { cab.appendChild(parrafo(b.intro, "ud-entradilla ud-sesion__intro")); }
       s.appendChild(cab);
       (b.actividades || []).forEach(function (a) { s.appendChild(actividad(a)); });
       return s;
@@ -697,6 +798,33 @@
       return s;
     },
 
+    marco: function (b) {
+      var s = seccion(b, "ud-sec--pad ud-marco-curricular");
+      s.appendChild(cabeceraSeccion(b));
+      b.secciones.forEach(function (x) {
+        var d = el("section", "ud-marco-curricular__apartado");
+        d.id = x.id;
+        d.appendChild(el("h2", "ud-subtitulo-seccion", x.titulo));
+        if (x.contenido) { contenido(x.contenido, d.appendChild(el("div", "ud-columna-lectura"))); }
+        if (x.tabla) { d.appendChild(tablaCurricular(x.tabla)); }
+        if (x.casillas) {
+          var ul = el("ul", "ud-casillas");
+          x.casillas.forEach(function (c) {
+            var li = el("li", "ud-casilla" + (c.marcado ? " ud-casilla--marcada" : ""));
+            var marca = el("span", "ud-casilla__marca", c.marcado ? "✓" : "");
+            marca.setAttribute("aria-hidden", "true");
+            li.appendChild(marca);
+            li.appendChild(el("span", null, c.texto));
+            if (c.marcado) { li.appendChild(el("span", "ud-oculto", " " + T.seleccionada)); }
+            ul.appendChild(li);
+          });
+          d.appendChild(ul);
+        }
+        s.appendChild(d);
+      });
+      return s;
+    },
+
     creditos: function (b) {
       var s = seccion(b, "ud-sec--pad ud-sec--gris");
       s.appendChild(cabeceraSeccion(b));
@@ -752,9 +880,15 @@
     if (a.aula) { cab.appendChild(insignia(T.enElAula, "ud-insignia--aula")); }
     if (a.estado) { cab.appendChild(insignia(a.estado, "ud-insignia--estado")); }
     art.appendChild(cab);
+    if (a.titulo) {
+      var ht = el("p", "ud-actividad__titulo", a.titulo);
+      ht.id = nuevoId("act-tit");
+      art.setAttribute("aria-labelledby", idTit + " " + ht.id);
+      art.appendChild(ht);
+    }
 
     var cuerpo = el("div", "ud-actividad__cuerpo");
-    if (a.lema) { cuerpo.appendChild(el("p", "ud-lema", a.lema)); }
+    if (a.lema) { cuerpo.appendChild(el("p", "ud-lema" + (a.lema.length > 110 ? " ud-lema--largo" : ""), a.lema)); }
     contenido(a.contenido, cuerpo);
     art.appendChild(cuerpo);
     if (a.salas) { art.appendChild(salas(a.salas)); }
@@ -890,6 +1024,31 @@
       fila.appendChild(el("td", "ud-tabla__estado", d.estadoTexto || ""));
       [].forEach.call(fila.children, function (td, i) { td.setAttribute("data-etiqueta", columnas.cabeceras[i]); });
       tb.appendChild(fila);
+    });
+    t.appendChild(tb);
+    envoltorio.appendChild(t);
+    return envoltorio;
+  }
+
+  /* Tabla del marco curricular: cada celda es una lista de contenidos. */
+  function tablaCurricular(x) {
+    var envoltorio = el("div", "ud-tabla-caja ud-tabla-caja--curricular");
+    var t = el("table", "ud-tabla ud-tabla--curricular");
+    var thead = el("thead");
+    var tr = el("tr");
+    x.cabeceras.forEach(function (c) { var th = el("th", null, c); th.scope = "col"; tr.appendChild(th); });
+    thead.appendChild(tr);
+    t.appendChild(thead);
+    var tb = el("tbody");
+    x.filas.forEach(function (fila) {
+      var r = el("tr");
+      fila.forEach(function (celda, i) {
+        var td = el("td");
+        td.setAttribute("data-etiqueta", x.cabeceras[i]);
+        contenido(celda, td);
+        r.appendChild(td);
+      });
+      tb.appendChild(r);
     });
     t.appendChild(tb);
     envoltorio.appendChild(t);
