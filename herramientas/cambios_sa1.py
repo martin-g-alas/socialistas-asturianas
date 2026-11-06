@@ -45,6 +45,9 @@ D["imagenes"]["cambrils"] = {"src": "../img/sa1/cambrils.jpg", "alt": "Fotograf�
                              "fuente": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Cambrils_Sendra.jpg", "sesion": "Sesión 3",
                              "estado": "libre", "estadoTexto": "Libre", "w": 330, "h": 321}
 
+# Errata del texto de Cambrils corregida con el visto bueno de la autoría.
+C["lectura_cita"][1] = cambiar(C["lectura_cita"][1], "en ellos órdenes", "en los órdenes")
+
 # Actividad nueva después de la primera: lectura de un texto de María Cambrils; la autoría se desvela al final.
 lectura = {"etiqueta": "Lectura", "aula": True,
            "contenido": [C["lectura_enunciado"], {"cita": C["lectura_cita"]},
