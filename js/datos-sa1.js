@@ -518,8 +518,8 @@ window.UD_DATOS = {
    "sesion": "Sesión 3",
    "estado": "libre",
    "estadoTexto": "Libre",
-   "w": 330,
-   "h": 321
+   "w": 640,
+   "h": 622
   }
  },
  "bloques": [
