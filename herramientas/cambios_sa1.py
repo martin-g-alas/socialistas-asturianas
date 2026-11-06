@@ -43,7 +43,7 @@ retratos["retratos"].append({"nombre": "María Cambrils Sendra (1878-1939)", "fo
 D["imagenes"]["cambrils"] = {"src": "../img/sa1/cambrils.jpg", "alt": "Fotografía de María Cambrils sentada, con un ejemplar de un periódico en la mano.",
                              "titulo": "María Cambrils Sendra", "autor": "Autor desconocido", "fecha": "Sin fecha", "licencia": "Public domain",
                              "fuente": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Cambrils_Sendra.jpg", "sesion": "Sesión 3",
-                             "estado": "libre", "estadoTexto": "Libre", "w": 640, "h": 622}
+                             "estado": "libre", "estadoTexto": "Libre (retocada por la autoría)", "w": 800, "h": 778}
 
 # Errata del texto de Cambrils corregida con el visto bueno de la autoría.
 C["lectura_cita"][1] = cambiar(C["lectura_cita"][1], "en ellos órdenes", "en los órdenes")

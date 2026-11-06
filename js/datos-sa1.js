@@ -517,9 +517,9 @@ window.UD_DATOS = {
    "fuente": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Cambrils_Sendra.jpg",
    "sesion": "Sesión 3",
    "estado": "libre",
-   "estadoTexto": "Libre",
-   "w": 640,
-   "h": 622
+   "estadoTexto": "Libre (retocada por la autoría)",
+   "w": 800,
+   "h": 778
   }
  },
  "bloques": [
