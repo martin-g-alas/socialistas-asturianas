@@ -24,22 +24,24 @@ navegador de quien las usa (`localStorage`).
 | `herramientas/` | Scripts que generan `js/datos-sa1.js` y las páginas de `sa1/` desde el .docx. |
 | `prueba-ud2-s1/` | Página de prueba antigua, no enlazada. |
 
-## Regenerar la situación 1 desde el .docx
+## Regenerar la situación 1
 
-Los textos se copian literalmente del docx («PROPUESTA DE SITUACIÓN DE APRENDIZAJE 1»);
-las notas en rojo son indicaciones para la web y no se publican.
+Los textos salen literalmente del docx «PROPUESTA DE SITUACIÓN DE APRENDIZAJE 1»;
+su texto ya extraído, sin las notas internas en rojo, está en `herramientas/parrafos-sa1.json`,
+así que no hace falta el docx para regenerar. Después se aplican los cambios posteriores
+(«Cambios.docx»: título nuevo, María Cambrils en la sesión 3, sesión 7), guardados
+literalmente en `herramientas/cambios-sa1.json`.
 
 ```
-unzip PROPUESTA.docx -d /tmp/docx
-python3 -I herramientas/parrafos.py /tmp/docx /tmp/parrafos.json
-python3 -I herramientas/construir_sa1.py /tmp/parrafos.json herramientas/datos-anteriores.json js/datos-sa1.js
+python3 -I herramientas/construir_sa1.py herramientas/parrafos-sa1.json herramientas/datos-anteriores.json js/datos-sa1.js
+python3 -I herramientas/cambios_sa1.py js/datos-sa1.js herramientas/cambios-sa1.json
 python3 -I herramientas/paginas_sa1.py .
 ```
 
-`construir_sa1.py` avisa de cualquier párrafo del docx que no se haya usado.
-`datos-anteriores.json` guarda lo que el docx pide «mantener» de la versión anterior
-(galería de la sesión 1, texto de Wollstonecraft, línea del tiempo, textos de la
-sesión 4, retratos y créditos de imágenes).
+`construir_sa1.py` avisa de cualquier párrafo del docx que no se haya usado y lleva la
+lista de erratas corregidas con el visto bueno de la autoría. `datos-anteriores.json`
+guarda lo que el docx pide «mantener» de la versión anterior. Las páginas cargan CSS y JS
+con una huella de versión (`?v=…`) para que el navegador no use copias viejas.
 
 ## Mujeres con ilustración propia (trato destacado)
 

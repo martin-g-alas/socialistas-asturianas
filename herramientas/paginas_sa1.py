@@ -21,7 +21,7 @@ e = html.escape
 
 # Situaciones de aprendizaje: solo la 1 está hecha; las demás conservan su título de la portada general.
 SITUACIONES = [
-    (1, "¡Por nuestros derechos! La ciudadanía también tiene nombre de mujer", "sa1/index.html"),
+    (1, "¡Compañeras, luchemos por nuestros derechos!", "sa1/index.html"),
     (2, "Asturias en la Segunda República", None),
     (3, "¡Salud, compañeras! Antifascismo y democracia", None),
     (4, "Asturias ocupada: violencia, represión y resistencia", None),

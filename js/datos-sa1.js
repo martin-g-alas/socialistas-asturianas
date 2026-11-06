@@ -2,7 +2,7 @@
 window.UD_DATOS = {
  "unidad": {
   "numero": 1,
-  "tituloPagina": "Situación de aprendizaje 1 · ¡por nuestros derechos! la ciudadanía también tiene nombre de mujer"
+  "tituloPagina": "Situación de aprendizaje 1 · ¡Compañeras, luchemos por nuestros derechos!"
  },
  "interfaz": {
   "elige": "Elige un nombre",
@@ -506,6 +506,20 @@ window.UD_DATOS = {
    "w": 260,
    "h": 300,
    "sesion": "Sesión 5"
+  },
+  "cambrils": {
+   "src": "../img/sa1/cambrils.jpg",
+   "alt": "Fotografía de María Cambrils sentada, con un ejemplar de un periódico en la mano.",
+   "titulo": "María Cambrils Sendra",
+   "autor": "Autor desconocido",
+   "fecha": "Sin fecha",
+   "licencia": "Public domain",
+   "fuente": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Cambrils_Sendra.jpg",
+   "sesion": "Sesión 3",
+   "estado": "libre",
+   "estadoTexto": "Libre",
+   "w": 330,
+   "h": 321
   }
  },
  "bloques": [
@@ -514,7 +528,7 @@ window.UD_DATOS = {
    "id": "presentacion",
    "imagen": "portada_ud",
    "etiqueta": "SITUACIÓN DE APRENDIZAJE 1",
-   "titulo": "¡POR NUESTROS DERECHOS! LA CIUDADANÍA TAMBIÉN TIENE NOMBRE DE MUJER",
+   "titulo": "¡Compañeras, luchemos por nuestros derechos!",
    "subtitulo": "La emancipación: Las mujeres asturianas en la conquista de la ciudadanía y el socialismo (1789-1931)",
    "datos": [
     {
@@ -566,7 +580,7 @@ window.UD_DATOS = {
     {
      "num": "03",
      "titulo": "Las pensadoras de la emancipación",
-     "texto": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de ocho figuras históricas: Flora Tristán, Jeanne Deroin, Aleksandra Kollontái, Clara Zetkin, Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón y Adolfo Posada.",
+     "texto": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de nueve figuras históricas: Flora Tristán, Jeanne Deroin, Aleksandra Kollontái, Clara Zetkin, Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón, Adolfo Posada y María Cambrils.",
      "href": "sesion-3.html"
     },
     {
@@ -586,6 +600,12 @@ window.UD_DATOS = {
      "titulo": "Los primeros grupos femeninos socialistas en Asturias",
      "texto": "En la sexta sesión nos acercaremos al surgimiento de las primeras organizaciones de mujeres en Asturias, a través de los primeros grupos femeninos socialistas y sus principales reivindicaciones. También analizaremos el papel de las mujeres pioneras dentro del socialismo de la época, que contribuyeron al nacimiento y desarrollo de estos grupos femeninos.",
      "href": "sesion-6.html"
+    },
+    {
+     "num": "07",
+     "titulo": "Podcast feminista",
+     "texto": "En construcción",
+     "href": "sesion-7.html"
     }
    ]
   },
@@ -892,14 +912,14 @@ window.UD_DATOS = {
    "id": "s3",
    "etiqueta": "Sesión 3",
    "titulo": "Las pensadoras de la emancipación",
-   "intro": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de ocho figuras históricas: Flora Tristán, Jeanne Deroin, Aleksandra Kollontái, Clara Zetkin, Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón y Adolfo Posada.",
+   "intro": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de nueve figuras históricas: Flora Tristán, Jeanne Deroin, Aleksandra Kollontái, Clara Zetkin, Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón, Adolfo Posada y María Cambrils.",
    "actividades": [
     {
      "etiqueta": "Actividad de investigación biográfica",
-     "titulo": "las pensadoras de la emancipación",
+     "titulo": "Las pensadoras de la emancipación",
      "aula": true,
      "contenido": [
-      "En esta actividad, el alumnado se organizará en ocho equipos y cada uno investigará sobre una de las figuras propuestas. A través de la búsqueda y selección de información, conocerá sus principales ideas, reivindicaciones y acciones, así como el contexto histórico en el que desarrollaron su actividad.",
+      "En esta actividad, el alumnado se organizará en nueve equipos y cada uno investigará sobre una de las figuras propuestas. A través de la búsqueda y selección de información, conocerá sus principales ideas, reivindicaciones y acciones, así como el contexto histórico en el que desarrollaron su actividad.",
       "Cada equipo estudiará una de las siguientes figuras, prestando especial atención a sus aportaciones a la emancipación de las mujeres y a la conquista y defensa de sus derechos:",
       {
        "lista": [
@@ -918,7 +938,8 @@ window.UD_DATOS = {
           "texto": ".",
           "destacado": true
          }
-        ]
+        ],
+        "María Cambrils."
        ]
       },
       {
@@ -954,14 +975,38 @@ window.UD_DATOS = {
         {
          "nombre": "Adolfo González-Posada y Biesca (1860-1944)",
          "foto": "posada"
+        },
+        {
+         "nombre": "María Cambrils Sendra (1878-1939)",
+         "foto": "cambrils"
         }
        ]
       }
      ]
     },
     {
+     "etiqueta": "Lectura",
+     "aula": true,
+     "contenido": [
+      "Leed este texto, que pertenece a una de las figuras anteriores. ¿Creéis que puede ser obra de la persona que os ha tocado? ¿Por qué? Al final, con ayuda del profesorado, se desvelará quién lo escribió.",
+      {
+       "cita": [
+        "Todos los socialistas deben esforzarse en el seno de la familia por convencer a su madre, a sus hermanas, a sus hijas, a todas sus parientas con respecto a los principios socialistas, que dignifican a la persona y ennoblecen los sentimientos y el espíritu. Son, pues, los socialistas los únicos partidarios de la fraternidad humana; ello y nadie más que ellos, reconocen a la mujer como su igual.",
+        "El feminismo constituye en los presentes momentos un tema de intensos estudios y, es, a la vez, asunto que requiere la mayor atención por parte de los hombres. Cerrarse a la banda contra los postulados feministas, sin demostrar que no tienen razón las mujeres para reclamar la igualdad de derechos en ellos órdenes civil, jurídico y administrativo y económico, es un atropello incalificable, a más de una opción del todo irracional.",
+        "Nosotras, pobres de intelecto, pero ricas en entusiasmo, no concebimos pueda accionar un sector, femenino o masculino, sin estar alentado por un ideal. No enarbolar una bandera que condense las legítimas aspiraciones del feminismo nos parece actuación vana (…) Construir, siempre construyendo: he aquí la labor constante de las mujeres socialistas (…). Las mujeres socialistas van aportando sus paletadas de fe al pie de los andamios levantados por la cooperación, donde trabajaban constantemente los artífices de la Razón, que lo mismo en el Primero de Mayo, nuestra simbólica fiesta, como en todos los demás días, construyen el gran Palacio de la Justicia, morada en un futuro no muy lejano de la excelsa confraternidad, madre de todos los oprimidos de ambos sexos"
+       ]
+      },
+      {
+       "plegable": "Desvelar quién lo escribió",
+       "items": [
+        "(María Cambrils, El Socialista 1-5-1925. p.2)"
+       ]
+      }
+     ]
+    },
+    {
      "etiqueta": "Actividad de creación",
-     "titulo": "Entrada para un diccionario biográfico colectivo sobre las ocho figuras históricas investigadas.",
+     "titulo": "Entrada para un diccionario biográfico colectivo sobre las nueve figuras históricas investigadas.",
      "aula": true,
      "contenido": [
       "A partir de la información recopilada en la actividad anterior y manteniendo los mismos equipos, el alumnado elaborará una entrada biográfica sobre la figura que le haya correspondido para un diccionario biográfico.",
@@ -1040,7 +1085,7 @@ window.UD_DATOS = {
      "etiqueta": "Creación",
      "aula": true,
      "oscura": true,
-     "lema": "¿Os atrevéis a crear una cuenta en una red social con un nombre como Pensadoras de la emancipación, en la que se recojan las biografías de las ocho figuras históricas investigadas?"
+     "lema": "¿Os atrevéis a crear una cuenta en una red social con un nombre como Pensadoras de la emancipación, en la que se recojan las biografías de las nueve figuras históricas investigadas?"
     }
    ],
    "ilustracionImagen": "cabecera_s3"
@@ -1476,6 +1521,17 @@ window.UD_DATOS = {
     }
    ],
    "ilustracionImagen": "cabecera_s6"
+  },
+  {
+   "tipo": "sesion",
+   "id": "s7",
+   "etiqueta": "Sesión 7",
+   "titulo": "Podcast feminista",
+   "actividades": [
+    {
+     "etiqueta": "En construcción"
+    }
+   ]
   },
   {
    "tipo": "marco",

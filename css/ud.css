@@ -1651,3 +1651,9 @@ html { background: #fff; }
 /* Carta decorativa en la actividad de correspondencia (sesión 5) */
 .ud-pagina.ud-unidad .ud-figura--carta { max-width: 260px; margin: 24px 0 8px; transform: rotate(-2deg); }
 .ud-pagina.ud-unidad .ud-figura--carta .ud-imagen { box-shadow: 8px 8px 0 var(--u-acuarela-fondo); }
+
+/* Rejilla de sesiones: la última tarjeta ocupa la fila si queda sola o con hueco */
+@media (min-width: 900px) {
+  .ud-pagina.ud-unidad .ud-rejilla-sesiones .ud-tarjeta-sesion:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
+  .ud-pagina.ud-unidad .ud-rejilla-sesiones .ud-tarjeta-sesion:last-child:nth-child(3n+2) { grid-column: span 2; }
+}

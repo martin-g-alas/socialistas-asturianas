@@ -1,0 +1,5537 @@
+[
+{
+"texto": "Etapa ",
+"segs": [
+{
+"t": "Etapa ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Educación ",
+"segs": [
+{
+"t": "Educación ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Secundaria Obligatoria ",
+"segs": [
+{
+"t": "Secundaria Obligatoria",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Curso ",
+"segs": [
+{
+"t": "Curso",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "4.º ESO ",
+"segs": [
+{
+"t": "4.º ESO",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Materia ",
+"segs": [
+{
+"t": "Materia ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Geografía e Historia ",
+"segs": [
+{
+"t": "Geografía e Historia",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Temporalización",
+"segs": [
+{
+"t": "Temporalización",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "8 sesiones",
+"segs": [
+{
+"t": "8",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " sesiones",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Relación interdisciplinar entre áreas ",
+"segs": [
+{
+"t": "Relación interdisciplinar entre áreas ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En esta situación de aprendizaje, dado que el alumnado trabaja y elabora diferentes textos en distintos formatos, se podría establecer una conexión interdisciplinar con la materia de Lengua Castellana y Literatura.",
+"segs": [
+{
+"t": "En esta situación de aprendizaje, dado que el alumnado ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "trabaja y ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "elabora diferentes textos en distintos formatos, se podría establecer una conexión interdisciplinar con la materia de Lengua Castellana y Literatura.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "SITUACIÓN DE APRENDIZAJE 1 ",
+"segs": [
+{
+"t": "SITUACIÓN DE APRENDIZAJE 1 ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¡POR NUESTROS DERECHOS! LA CIUDADANÍA TAMBIÉN TIENE NOMBRE DE MUJER",
+"segs": [
+{
+"t": "¡POR NUESTROS DERECHOS! LA CIUDADANÍA TAMBIÉN TIENE NOMBRE DE MUJER",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La emancipación: Las mujeres asturianas en la conquista de la ciudadanía y el socialismo (1789-1931)",
+"segs": [
+{
+"t": "La emancipación: Las mujeres asturianas en la conquista de la ciudadanía y el socialismo (1789-1931)",
+"b": true,
+"i": true,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Intención educativa",
+"segs": [
+{
+"t": "Intención educativa",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La conquista de los derechos de las mujeres fue un proceso largo y complejo que transformó profundamente las sociedades contemporáneas. Desde las primeras reivindicaciones ilustradas de igualdad hasta el desarrollo del feminismo, el sufragismo y la participación de las mujeres en el movimiento obrero, numerosas pensadoras y activistas cuestionaron su exclusión de la ciudadanía y reclamaron el acceso a la educación, al trabajo y a los derechos políticos. ",
+"segs": [
+{
+"t": "La conquista de los derechos de las mujeres fue un proceso largo y complejo que transformó profundamente las sociedades contemporáneas. Desde las primeras reivindicaciones ilustradas de igualdad hasta el desarrollo del feminismo, el sufragismo y la participación de las mujeres en el movimiento obrero, numerosas pensadoras y activistas cuestionaron su exclusión de la ciudadanía y reclamaron el acceso a la educación, al trabajo y a los derechos políticos. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "A través de figuras como Olympe de Gouges, Mary Wollstonecraft, Flora Tristán, Concepción Arenal o Clara Zetkin, esta propuesta didáctica permite analizar los orígenes de la emancipación femenina y comprender cómo las luchas iniciadas entre los siglos XVIII y XX sentaron las bases para la conquista de la igualdad y la ciudadanía de las mujeres.",
+"segs": [
+{
+"t": "A través de figuras como ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Olympe",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " de ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Gouges",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", Mary ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Wollstonecraft",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", Flora Tristán, Concepción Arenal o Clara ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Zetkin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", esta ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "propuesta didáctica",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " permite analizar los orígenes de la emancipación femenina y comprender cómo las luchas iniciadas entre los siglos XVIII y XX sentaron las bases para la conquista de la igualdad y la ciudadanía de las mujeres.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Esta situación de aprendizaje pretende que el alumnado conozca los orígenes y la evolución del feminismo en la Edad Contemporánea, comprendiendo las principales reivindicaciones de sus pioneras y su lucha por los derechos de las mujeres. Asimismo, se busca que valore el papel femenino en los cambios sociales y políticos, trabajando con fuentes históricas y desarrollando el pensamiento crítico. Todo ello permitirá reflexionar sobre la importancia de la igualdad en la construcción de las democracias actuales.",
+"segs": [
+{
+"t": "Esta situación de aprendizaje pretende que el alumnado conozca los orígenes y la evolución del feminismo en la Edad Contemporánea, comprendiendo las principales reivindicaciones de sus pioneras y su lucha por los derechos de las mujeres. Asimismo, se busca que valore el papel femenino en los cambios sociales y políticos, trabajando con fuentes históricas y desarrollando el pensamiento crítico. Todo ello permitirá reflexionar sobre la importancia de la igualdad en la construcción de las democracias actuales.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Relación con ODS 2030 ",
+"segs": [
+{
+"t": "Relación con ODS 2030 ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Con esta situación de aprendizaje se espera contribuir a los siguientes Objetivos de Desarrollo Sostenible y los retos y desafíos del siglo XXI: ",
+"segs": [
+{
+"t": "Con esta situación de aprendizaje se espera",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " contribuir a los",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " siguientes Objetivos de Desarrollo Sostenible y los retos y desafíos del siglo XXI: ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "ODS n.º 5.  Igualdad de género: Alcanzar la igualdad entre los géneros y empoderar a todas las mujeres y niñas. ",
+"segs": [
+{
+"t": "ODS n.º 5.",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "  Igualdad de género: Alcanzar la igualdad entre los géneros y empoderar a todas las mujeres y niñas. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Reto siglo XXI n.º 4: ejercitar la sensibilidad para detectar situaciones de inequidad y exclusión desde la comprensión de sus causas complejas, para desarrollar sentimientos de empatía y compasión.  ",
+"segs": [
+{
+"t": "Reto siglo XXI n.º 4:",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ejercitar la sensibilidad para detectar situaciones de inequidad y exclusión desde la comprensión de sus causas complejas, para desarrollar sentimientos de empatía y compasión.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Reto siglo XXI n.º 9: sentirse parte de un proyecto colectivo, tanto en el ámbito local como en el global, desarrollando empatía y generosidad. ",
+"segs": [
+{
+"t": "Reto siglo XXI n.º 9:",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " sentirse parte de un proyecto colectivo, tanto en el ámbito local como en el global, desarrollando empatía y generosidad. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Esta situación de aprendizaje se plantea para ocho sesiones orientadas a 4º de la ESO si bien se podría desarrollar en los diferentes cursos de secundaria.",
+"segs": [
+{
+"t": "Esta situación de aprendizaje ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "se plantea para ocho sesiones orientadas a 4º de la ESO si bien se podría desarrollar en los diferentes cursos de secundaria.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "CONEXIÓN CON LOS ELEMENTOS CURRICULARES",
+"segs": [
+{
+"t": "CONEXIÓN CON LOS ELEMENTOS CURRICULARES",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Competencias específicas ",
+"segs": [
+{
+"t": "Competencias específicas ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Criterios de evaluación ",
+"segs": [
+{
+"t": "Criterios de evaluación ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Descriptores del perfil de salida ",
+"segs": [
+{
+"t": "Descriptores del perfil de salida ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Competencia específica 1. Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado, usando críticamente fuentes históricas y geográficas, para adquirir conocimientos, elaborar y expresar contenidos en varios formatos.  ",
+"segs": [
+{
+"t": "Competencia específica 1",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ". Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado, usando críticamente fuentes históricas y geográficas, para adquirir conocimientos, elaborar y expresar contenidos en varios formatos.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Elaborar contenidos propios en distintos formatos, mediante aplicaciones y estrategias de recogida y representación de datos más complejas, usando y contrastando críticamente fuentes fiables, tanto analógicas como digitales, del presente y de la historia contemporánea, identificando la desinformación y la manipulación. ",
+"segs": [
+{
+"t": "Elaborar contenidos propios en distintos formatos, mediante aplicaciones y estrategias de recogida y representación de datos más complejas, usando y contrastando críticamente fuentes fiables, tanto analógicas como digitales, del presente y de la historia contemporánea, identificando la desinformación y la manipulación. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Transferir adecuadamente la información y el conocimiento por medio de narraciones, pósteres, presentaciones, exposiciones orales, medios audiovisuales y otros productos.",
+"segs": [
+{
+"t": "Transferir adecuadamente la información y el conocimiento por medio de narraciones, pósteres, presentaciones, exposiciones orales, medios audiovisuales y otros productos.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "CCL2, CCL3, CD1, CD2, CC1.  ",
+"segs": [
+{
+"t": "CCL2, CCL3,",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " CD1, CD2, CC1.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Competencia específica 2. Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia identidad y a enriquecer el acervo común.  ",
+"segs": [
+{
+"t": "Competencia específica",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "2",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ". Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia identidad y a enriquecer el acervo común.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "2.1 Generar productos originales y creativos mediante la reelaboración de conocimientos previos a través de herramientas de investigación que permitan explicar problemas presentes y pasados de la humanidad a distintas escalas temporales y espaciales, de lo local a lo global, utilizando conceptos, situaciones y datos relevantes. ",
+"segs": [
+{
+"t": "2.1 Generar productos originales y creativos mediante la reelaboración de conocimientos previos a través de herramientas de investigación que permitan explicar problemas presentes y pasados de la humanidad a distintas escalas temporales y espaciales, de lo local a lo global, utilizando conceptos, situaciones y datos relevantes. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "2.2. Producir y expresar juicios y argumentos personales y críticos de forma abierta y respetuosa, haciendo patente la propia identidad y enriqueciendo el acervo común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y global.  ",
+"segs": [
+{
+"t": "2.2. Producir y expresar juicios y argumentos personales y críticos de forma abierta y respetuosa, haciendo patente la propia identidad y enriqueciendo el acervo común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y global.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "CCL1, CCL2, CD2, CC1, CC3, CE3, CCEC3 ",
+"segs": [
+{
+"t": "CCL1, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "CCL2, CD2, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "CC1, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "CC3, CE3,",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " CCEC3",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Competencia específica 5. Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como asumiendo los deberes y derechos propios de nuestro marco de convivencia, para promover la participación ciudadana y la cohesión social.  ",
+"segs": [
+{
+"t": "Competencia específica",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "5",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ". ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como asumiendo los deberes y derechos propios de nuestro marco de convivencia, para promover la participación ciudadana y la cohesión social.  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "5.1. Conocer, valorar y ejercitar responsabilidades, derechos y deberes y actuar en favor de su desarrollo y afirmación, a través del conocimiento de nuestro ordenamiento jurídico y constitucional, de la comprensión y puesta en valor de nuestra memoria democrática y de los aspectos fundamentales que la conforman, de la contribución de los hombres y mujeres a la misma y la defensa de nuestros valores constitucionales.",
+"segs": [
+{
+"t": "5.1. ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Conocer, valorar y ejercitar responsabilidades, derechos y deberes y actuar en favor de su desarrollo y afirmación, a través del conocimiento de nuestro ordenamiento jurídico y constitucional, de la comprensión y puesta en valor de nuestra memoria democrática y de los aspectos fundamentales que la conforman, de la contribución de los hombres y mujeres a la misma y la defensa de nuestros valores constitucionales.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "5.2. Reconocer movimientos y causas que generen una conciencia solidaria, promuevan la cohesión social, y trabajen para la eliminación de la desigualdad, especialmente la motivada por cuestión de género, y para el pleno desarrollo de la ciudadanía, mediante la movilización de conocimientos y estrategias de participación, trabajo en equipo, mediación y resolución pacífica de conflictos",
+"segs": [
+{
+"t": "5.2. ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Reconocer movimientos y causas que generen una conciencia solidaria, promuevan la cohesión social, y trabajen para la eliminación de la desigualdad, especialmente la motivada por cuestión de género, y para el pleno desarrollo de la ciudadanía, mediante la movilización de conocimientos y estrategias de participación, trabajo en equipo, mediación y resolución pacífica de conflictos",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "CCL5, CC1, CC2, CCEC1.",
+"segs": [
+{
+"t": "CCL5, CC1, CC2, CCEC1.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Saberes Básicos ",
+"segs": [
+{
+"t": "Saberes Básicos",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Bloque A. Retos del mundo actual ",
+"segs": [
+{
+"t": "Bloque A. Retos del mundo actual ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Desigualdad e injusticia en el contexto local y global. Solidaridad, cohesión social y cooperación para el desarrollo.   ",
+"segs": [
+{
+"t": "Desigualdad e injusticia en el contexto local y global. Solidaridad, cohesión social y cooperación para el desarrollo. ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Igualdad de género y formas de violencia contra las mujeres. Actitudes y comportamientos sexistas.  ",
+"segs": [
+{
+"t": "Igualdad de género y formas de violencia contra las mujeres. Actitudes y comportamientos sexistas. ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Bloque B. Sociedades y territorios ",
+"segs": [
+{
+"t": "Bloque B. Sociedades y territorios ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Conciencia histórica. Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente. Defensa y exposición crítica de los mismos a través de presentaciones y debates. ",
+"segs": [
+{
+"t": "Conciencia histórica. Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente. Defensa y exposición crítica de los mismos a través de presentaciones y debates. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La transformación política de los seres humanos: de la servidumbre a la ciudadanía. Transiciones, revoluciones y resistencias: permanencias y cambios en la época contemporánea. La conquista de los derechos individuales y colectivos en la época contemporánea. Origen, evolución y adaptación de los sistemas liberales en España y en el mundo a través de las fuentes.",
+"segs": [
+{
+"t": "La transformación política de los seres humanos: de la servidumbre a la ciudadanía. Transiciones, revoluciones y resistencias: permanencias y cambios en la época contemporánea. La conquista de los derechos individuales y colectivos en la época contemporánea. Origen, evolución y adaptación de los sistemas liberales en España y en el mundo a través de las fuentes",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género. Mujeres relevantes de la historia contemporánea.",
+"segs": [
+{
+"t": "La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género. Mujeres relevantes de la historia contemporánea.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La memoria democrática, con especial atención al Principado de Asturias. Experiencias históricas dolorosas del pasado reciente y reconocimiento y reparación a las víctimas de la violencia. El principio de Justicia Universal.",
+"segs": [
+{
+"t": "La memoria democrática, con especial atención al Principado de Asturias. Experiencias históricas dolorosas del pasado reciente y reconocimiento y reparación a las víctimas de la violencia. El principio de Justicia Universal.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Bloque C. Compromiso cívico ",
+"segs": [
+{
+"t": "Bloque C. Compromiso cívico ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Cohesión social e integración. Medidas y acciones en favor de la igualdad y de la plena inclusión.",
+"segs": [
+{
+"t": "Cohesión social e integración. Medidas y acciones en favor de la igualdad y de la plena inclusión.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La igualdad real de mujeres y hombres. La discriminación por motivo de diversidad sexual y de género. La conquista de derechos en las sociedades democráticas contemporáneas.",
+"segs": [
+{
+"t": "La igualdad real de mujeres y hombres. La discriminación por motivo de diversidad sexual",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " y de género. La conquista de derechos en las sociedades democráticas contemporáneas.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "METODOLOGÍA ",
+"segs": [
+{
+"t": "METODOLOGÍA ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje basado en el pensamiento ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Aprendizaje basado en el pensamiento ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐  Aprendizaje basado en problemas ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aprendizaje",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " basado en problemas ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje basado en proyectos ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aprendizaje basado en proyectos",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje basado en retos ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aprendizaje basado en retos ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐Estaciones de aprendizaje ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Estaciones de aprendizaje ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje cooperativo ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aprendizaje cooperativo",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Pensamiento de diseño (Design Thinking) ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Pensamiento de diseño (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Design",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Thinking",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ")",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje – servicio ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Aprendizaje – servicio ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje por contrato ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Aprendizaje por contrato ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ eLearning ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " eLearning ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Visual Thinking ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Visual ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Thinking",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Clase invertida ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Clase invertida ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Gamificación ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Gamificación",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Aprendizaje por descubrimiento ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aprendizaje por descubrimiento",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Pensamiento computacional ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Pensamiento computacional ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Técnicas y dinámicas de grupo ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Técnicas y dinámicas de grupo ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐  Explicación gran-grupo ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Explicación",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " gran-grupo",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Centros de interés ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Centros de interés ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Talleres ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Talleres ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Otras ________________ ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Otras ________________",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "AGRUPAMIENTOS ",
+"segs": [
+{
+"t": "AGRUPAMIENTOS",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": true,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Grupos heterogéneos ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Grupos heterogéneos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Grupos de expertos/as ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Grupos de expertos/as ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Gran grupo o grupo-clase ",
+"segs": [
+{
+"t": "Gran grupo o grupo-clase",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "☐Grupos fijos ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Grupos fijos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": true,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Equipos flexibles ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Equipos flexibles",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": " Trabajo individual ",
+"segs": [
+{
+"t": "",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Trabajo individual",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Grupos interactivos  ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Grupos interactivos ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "☐ Otros………………….. ",
+"segs": [
+{
+"t": "☐",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Otros……………",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "…….",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "SECUENCIACIÓN DIDÁCTICA ",
+"segs": [
+{
+"t": "SECUENCIACIÓN DIDÁCTICA ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesiones",
+"segs": [
+{
+"t": "Sesiones",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Descripción de las actividades ",
+"segs": [
+{
+"t": "Descripción de las actividades",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La primera sesión está orientada a que el alumnado tome conciencia de los orígenes de las reivindicaciones feministas y de su importancia en la vida de las mujeres. Para ello, se propone trabajar tanto con biografías como con textos clásicos sobre las reivindicaciones feministas.",
+"segs": [
+{
+"t": "La primera sesión está orientada a que el alumnado tome conciencia de los orígenes de las reivindicaciones feministas y de su importancia en la vida de las mujeres. Para ello, se propone trabajar tanto con biografías como con textos clásicos sobre las reivindicaciones feministas.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "ACTIVIDAD INICIAL: ¿Sabrías poner rostro de mujer a nuestros derechos?",
+"segs": [
+{
+"t": "ACTIVIDAD INICIAL",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ": ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "¿Sabrías poner rostro de mujer a nuestros derechos?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 1",
+"segs": [
+{
+"t": "Sesión 1",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Súbditas o ciudadanas?",
+"segs": [
+{
+"t": "¿Súbditas o ciudadanas?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La primera actividad consiste en un ejercicio de exploración inicial de conocimientos previos a partir de imágenes de mujeres que destacaron por su defensa de los derechos de las mujeres. Para ello, utilizaremos una galería interactiva de imágenes como recurso visual para guiar la actividad, que se desarrollará mediante una discusión dirigida. A continuación, se presenta la galería de imágenes que servirá de apoyo para esta dinámica.",
+"segs": [
+{
+"t": "La primera actividad consiste en un ejercicio de exploración ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "inicial ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "de conocimientos previos a partir de imágenes de mujeres que destacaron por su defensa de los derechos de las mujeres. Para ello, utilizaremos una galería interactiva de imágenes como recurso visual para guiar la actividad, que se desarrollará mediante una discusión dirigida. A continuación, se presenta la galería de imágenes que servirá de apoyo para esta dinámica.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Se proyectarán imágenes de:",
+"segs": [
+{
+"t": "Se proyectarán imágenes de:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Olympe de Gouges.",
+"segs": [
+{
+"t": "Olympe",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " de ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Gouges",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Mary Wollstonecraft.",
+"segs": [
+{
+"t": "Mary ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Wollstonecraft",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Flora Tristán.",
+"segs": [
+{
+"t": "Flora Tristán.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Concepción Arenal.",
+"segs": [
+{
+"t": "Concepción Arenal.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Clara Zetkin. ",
+"segs": [
+{
+"t": "Clara ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Zetkin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ". ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Para orientar el desarrollo de la discusión dirigida, podemos plantear las siguientes preguntas:",
+"segs": [
+{
+"t": "Para orientar el desarrollo de la discusión dirigida, podemos plantear las siguientes preguntas:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Preguntas iniciales )",
+"segs": [
+{
+"t": "Preguntas iniciales",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ")",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Qué tienen en común estas mujeres?",
+"segs": [
+{
+"t": "¿Qué tienen en común estas mujeres?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Por qué son consideradas pioneras?",
+"segs": [
+{
+"t": "¿Por qué son consideradas pioneras?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Qué significa ser ciudadana?",
+"segs": [
+{
+"t": "¿Qué significa ser ciudadana?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "ACTIVIDAD PRINCIPAL: ¿La Revolución Francesa fue también una revolución para las mujeres?",
+"segs": [
+{
+"t": "ACTIVIDAD PRINCIPAL",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ": ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "¿La Revolución Francesa fue también una revolución para las mujeres?",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La clase se dividirá en grupos heterogéneos y lo más paritarios posible (podrían ser dos o cuatro grupos). A partir del análisis de dos textos, una parte de la clase defenderá que la Revolución Francesa supuso un avance para las mujeres, mientras que la otra argumentará que quedaron excluidas de sus principales conquistas.",
+"segs": [
+{
+"t": "La clase se dividirá en grupos heterogéneos y lo más paritarios posible (podrían ser dos o cuatro grupos). A partir del análisis de dos textos, una parte de la clase defenderá que la Revolución Francesa supuso un avance para las mujeres, mientras que la otra argumentará que quedaron excluidas de sus principales conquistas.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El objetivo es fomentar el pensamiento crítico, la argumentación histórica y la reflexión sobre los avances y las limitaciones de la igualdad de género durante la Revolución Francesa, dando visibilidad al papel de las mujeres.",
+"segs": [
+{
+"t": "El objetivo es fomentar el pensamiento crítico, la argumentación histórica y la reflexión sobre los avances y las limitaciones de la igualdad de género durante la Revolución Francesa, dando visibilidad al papel de las mujeres.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Finalmente, se realizará una reflexión conjunta que permita comprender la complejidad del tema.",
+"segs": [
+{
+"t": "Finalmente, se realizará una reflexión conjunta que permita comprender la complejidad del tema.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Lectura por grupos de fragmentos de:",
+"segs": [
+{
+"t": "Lectura",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " por grupos",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " de fragmentos de:",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Declaración de los Derechos de la Mujer y de la Ciudadana (1791). https://www.marxists.org/espanol/tematica/mujer/autores/gouges/1791/001.htm",
+"segs": [
+{
+"t": "Declaración de los Derechos de la Mujer y de la Ciudadana (1791).",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "https://www.marxists.org/espanol/tematica/mujer/autores/gouges/1791/001.htm",
+"link": true
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Vindicación de los Derechos de la Mujer (1792). ",
+"segs": [
+{
+"t": "Vindicación de los Derechos de la Mujer (1792).",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Preparación de debate: ¿La Revolución Francesa fue también una revolución para las mujeres?",
+"segs": [
+{
+"t": "Preparación de de",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "bate:",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "¿La Revolución Francesa fue también una revolución para las mujeres?",
+"b": true,
+"i": true,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La clase se dividirá en cuatro grupos heterogéneos y lo más paritarios posible. A partir del análisis de dos textos, unos grupos defenderán que la Revolución Francesa supuso un avance para las mujeres y otros argumentarán que quedaron excluidas de sus principales conquistas. El objetivo es fomentar el pensamiento crítico, la argumentación histórica y la reflexión sobre los avances y las limitaciones de la igualdad de género durante la Revolución Francesa. Se hará una reflexión final que permita comprender la complejidad del tema.",
+"segs": [
+{
+"t": "La clase se dividirá en cuatro grupos heterogéneos y lo más paritarios posible. A partir del análisis de dos textos, unos grupos defenderán que la Revolución Francesa supuso un avance para las mujeres y otros argumentarán que quedaron excluidas de sus principales conquistas.",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "El objetivo es fomentar el pensamiento crítico, la argumentación histórica y la reflexión sobre los avances y las limitaciones de la igualdad de género durante la Revolución Francesa.",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Se hará una reflexión final que permita comprender la complejidad del tema.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 2",
+"segs": [
+{
+"t": "Sesión ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "2",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La campaña sufragista",
+"segs": [
+{
+"t": "La ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "campaña",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " sufragista",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El derecho al voto de las mujeres constituye una de las principales reivindicaciones del feminismo. Las actividades de esta segunda sesión están orientadas a comprender la importancia del sufragio universal y del reconocimiento del derecho al voto de toda la población, incluidas las mujeres.",
+"segs": [
+{
+"t": "El derecho al voto de las mujeres constituye una de las principales reivindicaciones del feminismo. Las actividades de esta segunda sesión están orientadas a comprender la importancia del sufragio universal y del reconocimiento del derecho al voto de toda la población, incluidas las mujeres.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En primer lugar, se propone ordenar cronológicamente cuatro acontecimientos fundamentales relacionados con los avances en la igualdad de género, el sufragio femenino y los derechos laborales, con el objetivo de situarlos en su contexto histórico y conocer el marco temporal en el que se desarrollaron.",
+"segs": [
+{
+"t": "En primer lugar, se propone ordenar cronológicamente cuatro acontecimientos fundamentales relacionados con los avances en la igualdad de género, el sufragio femenino y los derechos laborales, con el objetivo de situarlos en su contexto histórico y conocer el marco temporal en el que se desarrollaron.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "ACTIVIDAD COOPERATIVA La campaña sufragista ",
+"segs": [
+{
+"t": "ACTIVIDAD COOPERATIVA ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "La campaña sufragista",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La idea es que cada pareja elija una reivindicación que llevaría a una manifestación para defender el derecho al voto de las mujeres, adaptada al contexto histórico de la Convención de Seneca Falls (1848), que aparece en el ejercicio anterior, y explique qué utilidad tendría dicha reivindicación.",
+"segs": [
+{
+"t": "La idea es que cada pareja elija una reivindicación que llevaría a una manifestación para defender el derecho al voto de las mujeres, adaptada al contexto histórico de la Convención de Seneca Falls (1848), que aparece en el ejercicio anterior, y explique qué utilidad tendría dicha reivindicación",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Como paso previo, leeremos el siguiente texto de la Declaración de independencia respecto a los varones. En Seneca Falls (una localidad cercana a la actual Nueva York), las mujeres proclamaron en 1848:",
+"segs": [
+{
+"t": "Como paso previo, leeremos el siguiente texto de la ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Declaración de independencia respecto a los varones",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ". En Seneca Falls (una localidad cercana a la actual Nueva York), las mujeres proclamaron en 1848:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La Declaración de independencia respecto a los varones:",
+"segs": [
+{
+"t": "La ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Declaración de independencia",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": " respecto a los varones:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La historia de la humanidad es la historia de las repetidas vejaciones y usurpaciones por parte del hombre con respecto a la mujer, y cuyo objetivo directo es el establecimiento de una tiranía absoluta sobre ella. (...) ",
+"segs": [
+{
+"t": "La historia de la humanidad es la historia de las repetidas vejaciones y usurpaciones por parte del hombre con respecto a la mujer, y cuyo objetivo directo es el establecimiento de una tiranía absoluta sobre ella. (...) ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La ha obligado a someterse a unas leyes en cuya elaboración no tiene voz. (...) ",
+"segs": [
+{
+"t": "La ha obligado a someterse a unas leyes en cuya elaboración no tiene voz. (...) ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Si está casada, la ha dejado civilmente muerta ante la ley. La ha despojado de todo el derecho de propiedad, incluso sobre el jornal que ella misma gana. ",
+"segs": [
+{
+"t": "Si está casada, la ha dejado civilmente muerta ante la ley. La ha despojado de todo el derecho de propiedad, incluso sobre el jornal que ella misma gana. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Moralmente se ha convertido en un ser irresponsable. (...) En el contrato de matrimonio se le ha obligado a prometer obediencia al esposo, mientras que él se convierte, para todos los fines y propósitos en su amo –ya que la ley le da poder para privarla de libertad y para administrarla castigos. (…)  ",
+"segs": [
+{
+"t": "Moralmente se ha convertido en un ser irresponsable. (...) En el contrato de matrimonio se le ha obligado a prometer obediencia al esposo, mientras que él se convierte, para todos los fines y propósitos en su amo –ya que la ley le da poder para privarla de libertad y para administrarla castigos. (…)  ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Al emprender la gran tarea que tenemos ante nosotras, anticipamos que no escasearán los conceptos erróneos, las malas interpretaciones y las ridiculizaciones, empero, a pesar de ello, estamos dispuestas a conseguir nuestro objetivo, valiéndonos de todos los medios a nuestro alcance. Vamos a utilizar agentes, vamos a hacer circular folletos, presentar peticiones a las cámaras legislativas del Estado y nacionales, y asimismo trataremos de llegar a los púlpitos y a la prensa para ponerlos de nuestra parte. Esperamos que esta Convención vaya seguida de otras convenciones en todo el país. (...)",
+"segs": [
+{
+"t": "Al emprender la gran tarea que tenemos ante nosotras, anticipamos que no escasearán los conceptos erróneos, las malas interpretaciones y las ridiculizaciones, empero, a pesar de ello, estamos dispuestas a conseguir nuestro objetivo, valiéndonos de todos los medios a nuestro alcance. Vamos a utilizar agentes, vamos a hacer circular folletos, presentar peticiones a las cámaras legislativas del Estado y nacionales, y asimismo trataremos de llegar a los púlpitos y ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "a la prensa para ponerlos de nuestra parte. Esperamos que esta Convención vaya seguida de otras convenciones en todo el país. (...)",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La Declaración recoge el principio de universalismo de los derechos: que todos los hombres y mujeres son creados iguales; que están dotados por un Creador de ciertos derechos inalienables. Por ello, una serie de resoluciones ilustran el texto de Seneca Falls ",
+"segs": [
+{
+"t": "La Declaración recoge el principio de universalismo de los derechos: que todos los hombres y mujeres son creados iguales; que están dotados por un Creador de ciertos derechos inalienables. Por ello, una serie de resoluciones ilustran el texto de Seneca Falls ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "DECIDIMOS: Que todas aquellas leyes que impidan que la mujer ocupe en la sociedad la posición que su conciencia le dicte o que la sitúen en una posición inferior a la del hombre, son contrarias al gran precepto de la naturaleza y, por tanto, no tienen ni fuerza ni autoridad. (...) ",
+"segs": [
+{
+"t": "DECIDIMOS: Que todas aquellas leyes que impidan que la mujer ocupe en la sociedad la posición que su conciencia le dicte o que la sitúen en una posición inferior a la del hombre, son contrarias al gran precepto de la naturaleza y, por tanto, no tienen ni fuerza ni autoridad. (...) ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "DECIDIMOS: Que la mujer es igual al hombre -que así lo pretendió el Creador- y que por el bien de la raza humana exige que sea reconocida como tal. ",
+"segs": [
+{
+"t": "DECIDIMOS: Que la mujer es igual al hombre -que así lo pretendió el Creador- y que por el bien de la raza humana exige que sea reconocida como tal. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "DECIDIMOS: Que es deber de las mujeres de este país asegurarse el sagrado derecho a votar. ",
+"segs": [
+{
+"t": "DECIDIMOS: Que es deber de las mujeres de este país asegurarse el sagrado derecho a votar. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Fuente: Amalia Martín Gamero: Antología del feminismo. Madrid, Alianza Editorial, 1975, pp. 52 - 57.",
+"segs": [
+{
+"t": "Fuente: Amalia Martín Gamero: ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Antología del feminismo",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ". Madrid, Alianza Editorial, 1975, pp. 52 - 57.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "A continuación, cada pareja de estudiantes debe imaginar que acudirá a una manifestación en favor del derecho al voto de las mujeres a mediados del siglo XIX. El objetivo de la campaña es conseguir el derecho al voto de las mujeres para que puedan intervenir en las decisiones políticas y luchar por sus derechos y por la igualdad. Para defender esta causa, deberéis preparar elemento visual reivindicativo (pancarta o cartel) que llevaríais a una manifestación. Podéis crearla con materiales que tengáis a mano, dibujarla o recrearla.",
+"segs": [
+{
+"t": "A ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "continuación, cada pareja de estudiantes debe imaginar que acudirá a una manifestación en favor del ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "derecho al voto de las mujeres",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " a mediados del siglo XIX. El objetivo de la campaña es conseguir el derecho ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "al voto de las mujeres para que puedan",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " intervenir en las decisiones ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "políticas",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " y luchar por ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "sus",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " derechos y ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "por",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " la igualdad. Para defender ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "esta",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " causa, deberéis preparar ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "elemento visual reivindicativo (pancarta o cartel)",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "que llevaríais",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " a una manifestación. Podéis ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "crearla",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " con materiales que ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "tengáis",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " a mano, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "dibujarla o recrearla",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Una vez realizada la pancarta o cartel, cada pareja deberá justificar su propuesta ante el resto de la clase:",
+"segs": [
+{
+"t": "Una vez realizada ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "la pancarta",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " o cartel",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", cada pareja ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "deberá",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " justificar ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "su propuesta ante",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " el resto de la clase:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Qué mensaje reivindicativo llevamos a la manifestación?",
+"segs": [
+{
+"t": "¿Qué mensaje reivindicativo llevamos a la manifestación?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Por qué hemos elegido esa reivindicación?",
+"segs": [
+{
+"t": "¿Por qué hemos elegido esa reivindicación?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Cómo ayudaría esa reivindicación a defender los derechos de las mujeres?",
+"segs": [
+{
+"t": "¿Cómo ayudaría esa reivindicación a ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "defender los derechos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " de las mujeres?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Sigue siendo necesario en la actualidad reivindicar la reivindicación escogida para las mujeres?",
+"segs": [
+{
+"t": "¿Sigue siendo necesario en la actualidad reivindicar la reivindicación escogida para las mujeres?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "RECREACIÓN  EN EL  AULA",
+"segs": [
+{
+"t": "RECREACIÓN  EN",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " EL  AULA",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Os atrevéis a recrear en el aula una manifestación en favor del derecho al voto de las mujeres, utilizando las pancartas o los carteles reivindicativos que habéis elaborado y documentándola a través de un reportaje fotográfico?",
+"segs": [
+{
+"t": "¿Os atrevéis a recrear en el aula una manifestación en favor del derecho al voto de las mujeres, utilizando las pancartas o los carteles reivindicativos que habéis elaborado y documentándola a través de un reportaje fotográfico?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 3",
+"segs": [
+{
+"t": "Sesión ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "3",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Las pensadoras de la emancipación",
+"segs": [
+{
+"t": "Las pensadoras de la emancipación",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de ocho figuras históricas: Flora Tristán, Jeanne Deroin, Aleksandra Kollontái, Clara Zetkin, Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón y Adolfo Posada.",
+"segs": [
+{
+"t": "En la tercera sesión se propone realizar una investigación por equipos sobre las biografías de ocho figuras históricas: Flora Tristán, Jeanne ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Deroin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Aleksandra",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Kollontái",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", Clara ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Zetkin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", Rosa Luxemburgo, Concepción Arenal, Josefa Amar y Borbón y Adolfo Posada.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Actividad de investigación biográfica: las pensadoras de la emancipación",
+"segs": [
+{
+"t": "A",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "ctividad",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " de ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "i",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "nvestigación biográfica",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " las pensadoras de la emancipación",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En esta actividad, el alumnado se organizará en ocho equipos y cada uno investigará sobre una de las figuras propuestas. A través de la búsqueda y selección de información, conocerá sus principales ideas, reivindicaciones y acciones, así como el contexto histórico en el que desarrollaron su actividad.",
+"segs": [
+{
+"t": "En esta actividad, el alumnado se organizará en ocho equipos y cada uno investigará sobre una de las figuras propuestas. A través de la búsqueda y selección de información, conocerá sus principales ideas, reivindicaciones y acciones, así como el contexto histórico en el que desarrollaron su actividad.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Cada equipo estudiará una de las siguientes figuras, prestando especial atención a sus aportaciones a la emancipación de las mujeres y a la conquista y defensa de sus derechos:",
+"segs": [
+{
+"t": "Cada equipo estudiará una de las siguientes figuras, prestando especial atención a sus aportaciones a la emancipación de las mujeres y a la conquista y defensa de sus derechos:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Flora Tristán.",
+"segs": [
+{
+"t": "Flora Tristán.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Jeanne Deroin.",
+"segs": [
+{
+"t": "Jeanne ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Deroin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Aleksandra Kollontái.",
+"segs": [
+{
+"t": "Aleksandra",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Kollontái",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Clara Zetkin.",
+"segs": [
+{
+"t": "Clara ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Zetkin",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Rosa Luxemburgo.",
+"segs": [
+{
+"t": "Rosa Luxemburgo.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Concepción Arenal.",
+"segs": [
+{
+"t": "Concepción Arenal.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Josefa Amar y Borbón.",
+"segs": [
+{
+"t": "Josefa Amar y Borbón.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Adolfo Posada.",
+"segs": [
+{
+"t": "Adolfo Posada",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Actividad de creación. Entrada para un diccionario biográfico colectivo sobre las ocho figuras históricas investigadas.",
+"segs": [
+{
+"t": "Actividad de creación",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ". ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Entrada",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " para un diccionario biográfico colectivo sobre las ocho figuras históricas investigadas.",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "A partir de la información recopilada en la actividad anterior y manteniendo los mismos equipos, el alumnado elaborará una entrada biográfica sobre la figura que le haya correspondido para un diccionario biográfico.",
+"segs": [
+{
+"t": "A partir de la información recopilada en la actividad anterior y manteniendo los mismos equipos, el alumnado elaborará una ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "entrada ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "biográfica sobre la figura que le haya correspondido",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " para un diccionario biográfico",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Cada ficha deberá incluir los siguientes datos:",
+"segs": [
+{
+"t": "Cada ficha deberá incluir los siguientes datos:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Fotografía: Imagen de la persona investigada.",
+"segs": [
+{
+"t": "Fotografía",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " Imagen de la persona investigada",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Cronología: Fechas y acontecimientos más importantes de su vida.",
+"segs": [
+{
+"t": "Cronología",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ": ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Fechas y acontecimientos más importantes de su vida.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Ideas principales: Pensamiento, propuestas y reivindicaciones.",
+"segs": [
+{
+"t": "Ideas principales: ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Pensamiento, propuestas y reivindicaciones.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Frases destacadas: Citas representativas de sus ideas y de su obra.",
+"segs": [
+{
+"t": "Frases destacadas",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ": ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Citas representativas de sus ideas y de su obra.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Influencia histórica: Principales aportaciones y repercusión de su trayectoria en la defensa de los derechos de las mujeres y la transformación social.",
+"segs": [
+{
+"t": "Influencia histórica",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " P",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "rincipales aportaciones y repercusión de su trayectoria en la defensa de los derechos de las mujeres y la transformación social.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Podemos tomar como ejemplo el Diccionario Biográfico del socialismo español (https://fpabloiglesias.es/archivo-y-biblioteca/diccionario-biografico/), buscando una entrada, por ejemplo, la de Margarita Nleken:",
+"segs": [
+{
+"t": "Podemos tomar como ejemplo el Diccionario Biográfico del socialismo español (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "https://fpabloiglesias.es/archivo-y-biblioteca/diccionario-biografico/",
+"link": true
+},
+{
+"t": "), buscando una entrada, por ejemplo, la de Margarita ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Nleken",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "https://fpabloiglesias.es/entrada-db/nelken-mansberger-margarita/ ",
+"segs": [
+{
+"t": "https://fpabloiglesias.es/entrada-db/nelken-mansberger-margarita/",
+"link": true
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Finalmente, cada equipo compartirá los resultados de su investigación con el resto de la clase. De este modo, el alumnado podrá conocer distintas perspectivas y experiencias históricas, comprender la diversidad de las contribuciones a la emancipación femenina y reflexionar sobre la importancia de estas figuras en el avance de los derechos y la justicia social.",
+"segs": [
+{
+"t": "Finalmente, cada equipo compartirá los resultados de su investigación con el resto de la clase. De este modo, el alumnado podrá conocer distintas perspectivas y experiencias históricas, comprender la diversidad de las contribuciones a la emancipación femenina y reflexionar sobre la importancia de estas figuras en el avance de los derechos y la justicia social.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "CREACIÓN        EN EL  AULA",
+"segs": [
+{
+"t": "CREA",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "CIÓN  ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "      ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EN ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EL  AULA",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Os atrevéis a crear una cuenta en una red social con un nombre como Pensadoras de la emancipación, en la que se recojan las biografías de las ocho figuras históricas investigadas?",
+"segs": [
+{
+"t": "¿Os atrevéis a crear una cuenta en una red social con un nombre como ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Pensadoras de la emancipación",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ", en la que se recojan las biografías de las ocho figuras históricas investigadas?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 4",
+"segs": [
+{
+"t": "Sesión ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "4",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Educación, trabajo y ciudadanía",
+"segs": [
+{
+"t": "Educación, trabajo y ciudadanía",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En la cuarta sesión se pretende que el alumnado reflexione sobre la importancia de la educación y el trabajo como elementos fundamentales para el pleno desarrollo de las mujeres y el ejercicio de sus derechos como ciudadanas. Para ello, se trabajarán las ideas de Concepción Arenal, Josefa de Amar y Borbón y Benito Jerónimo Feijoo en torno a la educación y los derechos de las mujeres, estableciendo conexiones entre sus planteamientos y las situaciones de desigualdad que persisten en la actualidad.",
+"segs": [
+{
+"t": "En la cuarta sesión se pretende que el alumnado reflexione sobre la importancia de la educación y el trabajo como elementos fundamentales para el pleno desarrollo de las mujeres y el ejercicio de sus derechos como ciudadanas. Para ello, se trabajarán las ideas de Concepción Arenal, Josefa de Amar y Borbón y Benito Jerónimo Feijoo en torno a la educación y los derechos de las mujeres, estableciendo conexiones entre sus planteamientos y las situaciones de desigualdad que persisten en la actualidad.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Se quiere hacer un pueblo de hombres libres con mujeres esclavas? ¿Se quiere que la mujer disfrute realmente de libertad, mientras tenga la argolla de la miseria y de la ignorancia, mientras no mejore su condición económica e intelectual? (…) ¿Se quiere que haya equilibrios estables, orden económico, (…) mientras la mitad del género humano, si no hereda, o es sostenida por la familia, o don pecaminoso, tiene hambre? (Concepción Arenal: La emancipación de la mujer en España. Madrid, Júcar, 1974, p. 94.",
+"segs": [
+{
+"t": "¿Se quiere hacer un pueblo de hombres libres con mujeres esclavas? ¿Se quiere que la mujer disfrute realmente de libertad, mientras tenga la argolla de la miseria y de la ignorancia, mientras no mejore su condición económica e intelectual? (…) ¿Se quiere que haya equilibrios estables, orden económico, (…) mientras la mitad del género humano, si no hereda, o es sostenida por la familia, o don pecaminoso, tiene hambre? (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Concepción Arenal",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ": ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "La emancipación de la mujer en España",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ". Madrid, Júcar, 1974, p. 94.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "A las primeras se las enseña desde niñas sino a leer y a escribir, y a ciertas habilidades de manos. Se pone mucho cuidado en adornarlas, con lo cual, llegan a adquirir un cierto hábito de pensar siempre en la compostura exterior. De talento, si se les habla, como cosa por demás, de suerte que no sería mucho, que fuesen perdiendo la idea de ser capaces de otra cosa. Al contrario, a los niños, desde luego se les aplica, y se les hace aprender, antes que sepan lo que es estudio ni ciencia; oyen decir que hay Universidades, que hay Colegios y que hay empleos, para los que cursan éstos y aquéllas. De este modo crece con ellos y se les hace natural la aplicación y el estudio, y no tardan mucho en coger el fruto de sus tareas... (...) Si alguna mujer se dedica al estudio, es preciso, que lo haga por la ventaja y conveniencia, que le resulta a ella misma, pues sabe que no puede aspirar a ninguna recompensa. Mucha magnanimidad de espíritu se requiere, para emprender, y seguir la penosa carrera de las letras, por sola la complacencia de ilustrar el entendimiento.» (Fuente: \"Discurso en defensa del talento de las mugeres, y de su aptitud para el gobierno, y otros cargos en que se emplean los hombres” en https://www.ensayistas.org/antologia/XVIII/amar-bor/; Josefa de Amar y Borbón)",
+"segs": [
+{
+"t": "A las primeras se las enseña desde niñas sino a leer y a escribir, y a ciertas habilidades de manos. Se pone mucho cuidado en adornarlas, con lo cual, llegan a adquirir un cierto hábito de pensar siempre en la compostura exterior. De talento, si se les habla, como cosa por demás, de suerte que no sería mucho, que fuesen perdiendo la idea de ser capaces de otra cosa. Al contrario, a los niños, desde luego se les aplica, y se les hace aprender, antes que sepan lo que es estudio ni ciencia; oyen decir que hay Universidades, que hay Colegios y que hay empleos, para los que cursan éstos y aquéllas. De este modo crece con ellos y se les hace natural la aplicación y el estudio, y no tardan mucho en coger el fruto de sus tareas... (...) Si alguna mujer se dedica al estudio, es preciso, que lo haga por la ventaja y conveniencia, que le resulta a ella misma, pues sabe que no puede aspirar a ninguna recompensa. Mucha magnanimidad de espíritu se requiere, para emprender, y seguir la penosa carrera de las letras, por sola la complacencia de ilustrar el entendimiento.» (Fuente: \"Discurso en defensa del talento de las ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "mugeres",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", y de su aptitud para el gobierno, y otros cargos en que se emplean los hombres” en https://www.ensayistas.org/antologia/XVIII/amar-bor/; ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Josefa de Amar y Borbón",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ")",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En grave empeño me pongo. No es ya sólo un vulgo ignorante con quien entro en contienda: defender a todas las mujeres viene a ser lo mismo que ofender a casi todos los hombres, pues raro hay que no se interese en la precedencia de su sexo con desestimación del otro. A tanto se ha extendido la opinión común en vilipendio de las mujeres, que apenas admite en ellas cosa buena. En lo moral las llena de defectos, y en lo físico de imperfecciones; pero donde más fuerza hace es en la imitación de sus entendimientos. Por esta razón, después de defenderlas, con alguna brevedad, sobre otros capítulos, discurriré más largamente sobre su aptitud para todo género de ciencias y conocimientos sublimes... (Fuente: Benito Jerónimo Feijoo: Teatro Crítico Universal, “Defensa de las mujeres” en Amalia Martín Gamero (1975): Antología del feminismo. Madrid, Alianza Editorial, 1975, p. 230).",
+"segs": [
+{
+"t": "En grave empeño me pongo. No es ya sólo un vulgo ignorante con quien entro en contienda: defender a todas las mujeres viene a ser lo mismo que ofender a casi todos los hombres, pues raro hay que no se interese en la precedencia de su sexo con desestimación del otro. A tanto se ha extendido la opinión común en vilipendio de las mujeres, que apenas admite en ellas cosa buena. En lo moral ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "las llena",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " de defectos, y en lo físico de imperfecciones; pero donde más fuerza hace es en la imitación de sus entendimientos. Por esta razón, después de defenderlas, con alguna brevedad, sobre otros capítulos, discurriré más largamente sobre su aptitud para todo género de ciencias y conocimientos sublimes... (Fuente: Benito Jerónimo Feijoo: Teatro Crítico Universal, “Defensa de las mujeres” en Amalia Martín Gamero (1975): Antología del feminismo. Madrid, Alianza Editorial, 1975, p. 230).",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Actividad de creación: Elaboración de un manifiesto por la educación en igualdad",
+"segs": [
+{
+"t": "Actividad de creación",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ": Elaboración de un manifiesto por la ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "educación en ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "igualdad",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "1.1. Las voces del pasado (10 minutos)",
+"segs": [
+{
+"t": "1.",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "1.",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " Las voces del pasado (10 minutos)",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Se divide la clase en tres grupos y se asigna un texto a cada uno. Cada grupo debe identificar la idea principal del texto, la desigualdad que denuncia y una frase significativa que pueda servir de inspiración para el manifiesto.",
+"segs": [
+{
+"t": "Se divide la clase en tres grupos y se asigna un ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "texto",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " a cada uno. Cada grupo debe identificar la idea principal del ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "texto",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", la desigualdad que denuncia y una frase significativa que pueda servir de inspiración para el manifiesto.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "1.2. Del pasado al presente (10-15 minutos)",
+"segs": [
+{
+"t": "1.",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "2. Del pasado al presente (10-15 minutos)",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Cada grupo relaciona las ideas del texto con situaciones actuales. Para ello, reflexiona sobre preguntas como:",
+"segs": [
+{
+"t": "Cada grupo relaciona las ideas ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "del texto",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " con situaciones actuales. Para ello, reflexiona sobre preguntas como:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Qué desigualdades en el acceso a la educación y en las oportunidades de aprendizaje que se denuncian en el texto siguen presentes en la actualidad?",
+"segs": [
+{
+"t": "¿Qué desigualdades en el acceso a la educación y en las oportunidades de aprendizaje que se denuncian en el texto siguen presentes en la actualidad?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Qué avances se han conseguido en materia de educación e igualdad entre mujeres y hombres desde la época en la que se escribieron los textos?",
+"segs": [
+{
+"t": "¿Qué avances se han conseguido en materia de educación e igualdad entre mujeres y hombres desd",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "e la época en la que se escribieron",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "los textos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Qué cambios deberían promoverse en la educación para garantizar las mismas oportunidades a niñas y niños?",
+"segs": [
+{
+"t": "¿Qué cambios deberían promoverse en la educación para garantizar las mismas oportunidades a niñas y niños?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Cómo podemos contribuir, desde nuestro centro educativo, a construir una educación más igualitaria y libre de estereotipos de género?",
+"segs": [
+{
+"t": "¿Cómo podemos contribuir, desde nuestro centro educativo, a construir una educación más igualitaria y libre de estereotipos de género?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Las conclusiones se irán anotando para utilizarlas en la redacción final del manifiesto.",
+"segs": [
+{
+"t": "Las conclusiones se ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "irán anotando",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " para utilizarlas en la redacción",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " final del manifiesto",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "1.3. Construimos el manifiesto colectivo (20 minutos)",
+"segs": [
+{
+"t": "1.",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "3. Construimos el manifiesto colectivo (20 minutos)",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "A partir de las reflexiones anteriores, toda la clase elabora un manifiesto al que hay que dar un título, por ejemplo “La igualdad que todavía tenemos que construir”, centrado en el derecho a la educación.",
+"segs": [
+{
+"t": "A partir de las reflexiones anteriores, toda la clase elabora un manifiesto ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "al que hay que dar un título, por ejemplo ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "“La igualdad que todavía tenemos que construir”",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ", centrado en el derecho a la educación",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Cada grupo aporta sus propuestas y se organiza el documento en cuatro partes:",
+"segs": [
+{
+"t": "Cada grupo aporta sus propuestas y se organiza el documento en cuatro partes:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "1. Introducción: presentación del problema y reconocimiento de las ideas de los tres textos.",
+"segs": [
+{
+"t": "1. Introducción: presentación del problema y reconocimiento de las ideas de los tres ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "textos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "2. Lo que denunciamos: desigualdades y prejuicios que deben desaparecer.",
+"segs": [
+{
+"t": "2. Lo que denunciamos: desigualdades y prejuicios que deben desaparecer.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "3. Lo que defendemos: principios como la igualdad de oportunidades, el acceso a la educación, la libertad y el respeto.",
+"segs": [
+{
+"t": "3. Lo que defendemos: principios como la igualdad de oportunidades, el acceso a la educación, la libertad y el respeto.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "4. Nuestros compromisos: acciones concretas que el alumnado y la comunidad educativa pueden llevar a cabo.",
+"segs": [
+{
+"t": "4. Nuestros compromisos: acciones concretas que el alumnado y la comunidad educativa pueden llevar a cabo.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El manifiesto debe incluir al menos una idea de cada texto, tres propuestas de cambio y un lema final.",
+"segs": [
+{
+"t": "El manifiesto debe incluir al menos una idea de cada ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "texto",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ", tres propuestas de cambio y un lema final.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "CREACIÓN        EN EL  AULA",
+"segs": [
+{
+"t": "CREA",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "CIÓN  ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "      ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EN ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EL  AULA",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Os atrevéis a transformar vuestro manifiesto por la igualdad en una carta abierta dirigida a toda la comunidad educativa? A través de ella, compartiréis vuestras reivindicaciones y compromisos, dando difusión a vuestro trabajo mediante los canales institucionales del centro.",
+"segs": [
+{
+"t": "¿Os atrevéis a transformar vuestro manifiesto por la igualdad en una carta abierta dirigida a toda la comunidad educativa? A través de ella, compartiréis vuestras reivindicaciones y compromisos, dando difusión a vuestro trabajo mediante los canales institucionales del centro.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 5",
+"segs": [
+{
+"t": "Sesión ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "5",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La voz de las trabajadoras asturianas",
+"segs": [
+{
+"t": "La voz de las trabajadoras asturianas",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En la quinta sesión se pretende que el alumnado conozca el papel de las mujeres asturianas y sus principales reivindicaciones a comienzos del siglo XX. Para ello, se analizarán dos noticias publicadas en El Socialista sobre huelgas protagonizadas por mujeres trabajadoras en Asturias. A través de estas fuentes históricas, se estudiarán sus condiciones de vida y laborales, sus demandas y la importancia de la organización colectiva en la defensa de sus derechos.",
+"segs": [
+{
+"t": "En la quinta sesión se pretende que el alumnado conozca el papel de las mujeres asturianas y sus principales reivindicaciones a comienzos del siglo XX. Para ello, se analizarán dos noticias publicadas en El Socialista sobre huelgas protagonizadas por mujeres trabajadoras en Asturias. A través de estas fuentes históricas, se estudiarán sus condiciones de vida y laborales, sus demandas y la importancia de la organización colectiva en la defensa de sus derechos.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "1. Actividad con prensa histórica",
+"segs": [
+{
+"t": "1. Actividad con prensa histórica",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Lectura por parejas de las dos noticias:",
+"segs": [
+{
+"t": "Lectura por ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "parejas",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " de ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "las dos noticias:",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Documento 1. Oviedo, 1900",
+"segs": [
+{
+"t": "Documento 1. Oviedo, 1900",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El Socialista 16-3-1900",
+"segs": [
+{
+"t": "El Socialista",
+"b": true,
+"i": true,
+"rojo": false
+},
+{
+"t": " 16-3-1900",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Las obreras de una fábrica de cerillas denuncian salarios muy bajos, jornadas duras, multas constantes y malas condiciones de trabajo. Deciden ir a la huelga para reclamar mejoras.",
+"segs": [
+{
+"t": "Las obreras de una fábrica de cerillas denuncian salarios muy bajos, jornadas duras, multas constantes y malas condiciones de trabajo. Deciden ir a la huelga para reclamar mejoras.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Documento 2. Gijón. 1913",
+"segs": [
+{
+"t": "Documento 2. Gijón. 1913",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El Socialista 11-10-1910",
+"segs": [
+{
+"t": "El Socialista ",
+"b": true,
+"i": true,
+"rojo": false
+},
+{
+"t": "11-10-1910",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Más de doscientas trabajadoras de varias fábricas de conservas mantienen una huelga para conseguir mejoras laborales. Otras asociaciones obreras muestran su apoyo económico y moral a las huelguistas.",
+"segs": [
+{
+"t": "Más de ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "doscientas",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " trabajadoras de varias fábricas de conservas mantienen una huelga para conseguir mejoras laborales. Otras asociaciones obreras muestran su apoyo económico y moral a las huelguistas.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "b) Analizamos las condiciones de trabajo: ",
+"segs": [
+{
+"t": "b) Analizamos las condiciones de trabajo:",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Oviedo (1900)",
+"segs": [
+{
+"t": "Oviedo (1900)",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Gijón (1913)",
+"segs": [
+{
+"t": "Gijón (1913)",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Tipo de trabajadoras",
+"segs": [
+{
+"t": "Tipo de trabajadoras",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Problemas denunciados",
+"segs": [
+{
+"t": "Problemas denunciados",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Forma de protesta",
+"segs": [
+{
+"t": "Forma de protesta",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Apoyo recibido",
+"segs": [
+{
+"t": "Apoyo recibido",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "2. Actividad individual de empatía histórica: Correspondencia personal",
+"segs": [
+{
+"t": "2. Actividad ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "individual de empatía histórica:",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Correspondencia personal",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Esta actividad se realizará por parejas. Cada pareja deberá escribir una carta poniéndose en el papel de una mujer trabajadora de un lugar y sector concretos de la Asturias del primer tercio del siglo XX. La carta estará dirigida a una mujer trabajadora también asturiana de principios del siglo XXI, quien responderá desde su propia perspectiva y contexto histórico.",
+"segs": [
+{
+"t": "Esta actividad se realizará por parejas. Cada pareja deberá escribir una carta poniéndose en el papel de una mujer trabajadora de un lugar y sector concretos ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "de la Asturias ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "del primer tercio del siglo XX. La carta estará dirigida a una mujer trabajadora ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "también asturiana ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "de principios del siglo XXI, quien responderá desde su propia perspectiva y contexto histórico.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Estas preguntas pueden servir de ayuda para la elaboración de las cartas:",
+"segs": [
+{
+"t": "Estas preguntas pueden servir de ayuda para la elaboración de las cartas:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Cómo sería tu jornada laboral?",
+"segs": [
+{
+"t": "¿Cómo sería tu jornada laboral?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Cuáles serían tus principales reivindicaciones laborales?",
+"segs": [
+{
+"t": "¿Cuáles serían tus principales reivindicaciones laborales?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Qué esperas conseguir?",
+"segs": [
+{
+"t": "¿Qué esperas conseguir?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Crees que las condiciones laborales que describes serían aceptables en la actualidad?",
+"segs": [
+{
+"t": "¿Crees que las condiciones laborales que describes serían aceptables en la actualidad?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Qué derechos laborales tienen actualmente las mujeres trabajadoras que no tenían a principios del siglo XX? ¿Aún quedan derechos por conseguir?",
+"segs": [
+{
+"t": "¿Qué derechos laborales tienen actualmente las mujeres trabajadoras que no tenían a principios del siglo XX?",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ¿Aún quedan derechos por conseguir?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "¿Crees que siguen existiendo diferencias laborales entre mujeres y hombres, incluso cuando desempeñan los mismos puestos de trabajo?",
+"segs": [
+{
+"t": "¿Crees que siguen existiendo diferencias laborales entre mujeres y hombres, incluso cuando desempeñan los mismos puestos de trabajo?",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "LECTURA COLABORATIVA        EN EL  AULA",
+"segs": [
+{
+"t": "LECTURA COLABORATIVA",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "  ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "      ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EN ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "EL  AULA",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¿Os animáis a compartir con el resto de la clase la carta que habéis escrito desde la perspectiva de vuestras protagonistas? Escuchad las historias de vuestros compañeros y compañeras y aprovechad para plantear preguntas, resolver dudas y conocer mejor las experiencias, las condiciones de vida y las reivindicaciones de las mujeres trabajadoras de la época.",
+"segs": [
+{
+"t": "¿Os animáis a compartir con el resto de la clase la carta que habéis escrito desde la perspectiva de vuestra",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "s",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " protagonista",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "s",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "? Escuchad las historias de vuestros compañeros y compañeras y aprovechad para plantear preguntas, resolver dudas y conocer mejor las experiencias, las condiciones de vida y las reivindicaciones de las mujeres trabajadoras de la época.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sesión 6",
+"segs": [
+{
+"t": "Sesión 6",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Los primeros grupos femeninos socialistas en Asturias",
+"segs": [
+{
+"t": "Los primeros grupos femeninos socialistas en Ast",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "urias",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En la sexta sesión nos acercaremos al surgimiento de las primeras organizaciones de mujeres en Asturias, a través de los primeros grupos femeninos socialistas y sus principales reivindicaciones. También analizaremos el papel de las mujeres pioneras dentro del socialismo de la época, que contribuyeron al nacimiento y desarrollo de estos grupos femeninos.",
+"segs": [
+{
+"t": "En la sexta sesión nos acercaremos al surgimiento de las primeras organizaciones de mujeres en Asturias, a través de los primeros grupos femeninos socialistas y sus principales reivindicaciones.",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " También analizaremos ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "el papel de las mujeres pioneras dentro del socialismo de la época, que contribuyeron al nacimiento y desar",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "rollo de estos grupos femeninos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ".",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Actividad cartográfica: Los primeros grupos femeninos socialistas",
+"segs": [
+{
+"t": "Actividad cartográfica: ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "L",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "os primeros grupos femeninos socialistas",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En primer lugar, debéis leer el siguiente texto, en el que se explica cómo se formaron estos primeros grupos femeninos socialistas en Asturias. A continuación, situad en el mapa todos los lugares que aparecen mencionados en el texto.",
+"segs": [
+{
+"t": "En primer lugar, debéis leer el siguiente texto, en el que se explica cómo se formaron estos primeros grupos femeninos socialistas en Asturias. A continuación, situad en el mapa todos los lugares que aparecen mencionados en el texto.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Las asturianas se organizan",
+"segs": [
+{
+"t": "Las asturianas se organizan",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Los primeros grupos femeninos socialistas surgen en el contexto histórico de los augurios de la primera guerra mundial, el auge del internacionalismo, así como las luchas sindicales en respuesta a las injustas condiciones de trabajo. En concreto, la propaganda, y los mítines en Asturias de Virginia González Polo (1873-1923), inspiraron a grupos de mujeres integrados casi siempre en las Juventudes Socialistas en distintas localidades y municipios asturianos, a dar los primeros pasos para organizarse.",
+"segs": [
+{
+"t": "Los primeros grupos femeninos socialistas surgen en el contexto histórico de los augurios de la primera guerra mundial, el auge del internacionalismo, así como las luchas sindicales en respuesta a las injustas condiciones de trabajo. En concreto, la propaganda, y los mítines en Asturias de Virginia González Polo (1873-1923), inspiraron a grupos de mujeres integrados casi siempre en las Juventudes Socialistas en distintas localidades y municipios asturianos, a dar los primeros pasos para organizarse.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En Gijón, las trabajadoras de las fábricas textiles La Colosal y La Algodonera protestaron por sus condiciones de trabajo, reivindicaban la jornada de 10 horas diarias, así como “poder beber agua potable” en el tiempo de trabajo. Tras las protestas, ingresaron en la UGT.",
+"segs": [
+{
+"t": "En Gijón, las trabajadoras de las fábricas textiles La Colosal y La Algodonera protestaron por sus condiciones de trabajo, reivindicaban la jornada de 10 horas diarias, así como “poder beber agua potable” en el tiempo de trabajo. Tras las protestas, ingresaron en la UGT.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En octubre de 1913 se había constituido un segundo grupo femenino socialista en Mieres (Paulina Álvarez, presidenta, Socorro Suárez, vicepresidenta, Rosario Álvarez, secretaria, Aurora Pérez, vicesecretaria y Matilde Fernández, contadora). Organizaron como acto de celebración un mitin en el Centro Obrero de Mieres.",
+"segs": [
+{
+"t": "En octubre de 1913 se había constituido un segundo grupo femenino socialista en Mieres (Paulina Álvarez, presidenta, Socorro Suárez, vicepresidenta, Rosario Álvarez, secretaria, Aurora Pérez, vicesecretaria y Matilde Fernández, contadora). Organizaron como acto de celebración un mitin en el Centro Obrero de Mieres.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Fueron los grupos de La Vega (Riosa) y Sotrondio los que con motivo del primero de mayo de 1915 invitaron a participar a Virginia González Polo. Virginia sería la primera mujer que se incorporaría al Comité Nacional del PSOE en el X Congreso (24 de octubre- 2 de noviembre, 1915). No volvería a formar parte de ese Comité una militante hasta la celebración del XVIII Congreso en 1976. (…) Este primero de mayo supuso el triunfo de una iniciativa asturiana que se había adoptado con motivo de esta celebración: la fiesta de la flor roja. Las flores rojas eran vendidas por las militantes como símbolo antibelicista, “una gota de sangre que llora nuestro corazón ante la inmensa catástrofe que devasta Europa”.",
+"segs": [
+{
+"t": "Fueron los grupos de La Vega (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Riosa",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ") y ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Sotrondio",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " los que con motivo del primero de mayo de 1915 invitaron a participar a Virginia González Polo. Virginia sería la primera mujer que se incorporaría al Comité Nacional del PSOE en el X Congreso (24 de octubre- 2 de noviembre, 1915). No volvería a formar parte de ese Comité una militante hasta la celebración del XVIII Congreso en 1976. (…) Este primero de mayo supuso el triunfo de una iniciativa asturiana que se había adoptado con motivo de esta celebración: la fiesta de la flor roja. Las flores rojas eran vendidas por las militantes como símbolo antibelicista, “una gota de sangre que llora nuestro corazón ante la inmensa catástrofe que devasta Europa”.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "El grupo femenino socialista de Vegadotos trasladó una circular en la que se recogía que las obreras socialistas habían creado una biblioteca en Vegadotos y para ello requería la colaboración de todas para difundir el amor por la lectura. ",
+"segs": [
+{
+"t": "El grupo femenino socialista de ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Vegadotos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " trasladó una circular en la que se recogía que las obreras socialistas habían creado una biblioteca en ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Vegadotos",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " y para ello requería la colaboración de todas para difundir el amor por la lectura. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La Agrupación Femenina de Turón invitó a Virginia González que, en junio de 1919, disertó sobre el papel emancipador que tenía para las mujeres militar en el socialismo y para combatir a la burguesía, al ejército, al clero, a la magistratura, en fin, trabajar por la liberación de España del poder opresor del turnismo y del caciquismo. ",
+"segs": [
+{
+"t": "La Agrupación Femenina de Turón invitó a Virginia González que, en junio de 1919, disertó sobre el papel emancipador que tenía para las mujeres militar en el socialismo y para combatir a la burguesía, al ejército, al clero, a la magistratura, en fin, trabajar por la liberación de España del poder opresor del ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "turnismo",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " y del caciquismo. ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "a) Debéis situar en el mapa de Asturias los siguientes lugares mencionados en el texto: ",
+"segs": [
+{
+"t": "a) Debéis situar en el mapa de Asturias los siguientes lugares",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " mencionados en el texto",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Gijón",
+"segs": [
+{
+"t": "Gijón",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Mieres",
+"segs": [
+{
+"t": "Mieres",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "La Vega (Riosa)",
+"segs": [
+{
+"t": "La Vega (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Riosa",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ")",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Sotrondio",
+"segs": [
+{
+"t": "Sotrondio",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Vegadotos",
+"segs": [
+{
+"t": "Vegadotos",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "Turón",
+"segs": [
+{
+"t": "Turón",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": true,
+"rojo": false
+},
+{
+"texto": "b) Síntesis de los datos de los primeros grupos: ",
+"segs": [
+{
+"t": "b) ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Síntesis de los datos de los primeros grupos",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Localidad",
+"segs": [
+{
+"t": "Localidad",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Fecha aproximada",
+"segs": [
+{
+"t": "Fecha aproximada",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Datos",
+"segs": [
+{
+"t": "Datos",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Gijón",
+"segs": [
+{
+"t": "Gijón",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Mieres",
+"segs": [
+{
+"t": "Mieres",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La Vega (Riosa)",
+"segs": [
+{
+"t": "La Vega (",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Riosa",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ")",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Sotrondio",
+"segs": [
+{
+"t": "Sotrondio",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Vegadotos",
+"segs": [
+{
+"t": "Vegadotos",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Turón",
+"segs": [
+{
+"t": "Turón",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Actividad cooperativa: Reportaje de prensa",
+"segs": [
+{
+"t": "Actividad cooperativa: Reportaje de prensa",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "En el texto de la actividad anterior aparece Virginia González Polo, quien en 1919 fue invitada por la Agrupación Femenina de Turón para hablar sobre la importancia de la militancia de las mujeres en el socialismo como vía para conseguir su emancipación.",
+"segs": [
+{
+"t": "En el texto de la actividad anterior aparece ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Virginia González Polo",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": ", quien en 1919 fue invitada por la Agrupación Femenina de Turón para hablar sobre la importancia de la militancia de las mujeres en el socialismo como vía para conseguir su emancipación.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Por su parte, Rosario de Acuña salió de su casa, situada en El Cervigón (Gijón), y tomó el tren hasta Santullano. Desde allí, continuó a pie hasta Turón con el propósito de conocer personalmente a Virginia González Polo. Ambas coincidieron finalmente en Turón.",
+"segs": [
+{
+"t": "Por su parte, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Rosario de Acuña",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " salió de su casa, situada en El Cervigón (Gijón), y tomó el tren hasta ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Santullano",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ". Desde allí, continuó a pie hasta Turón con el propósito de conocer personalmente a Virginia González Polo. Ambas coincidieron finalmente en Turón.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Lee los siguientes textos: ",
+"segs": [
+{
+"t": "Lee los siguientes textos: ",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Estos son algunos de los testimonios de Virginia González:",
+"segs": [
+{
+"t": "Estos son algunos de los testimonios de Virginia González:",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Yo soy sencillamente una obrera, tengo el oficio de guarnecedora, y toda mi vida, desde los nueve años, he trabajado en fábricas y talleres para engañar el hambre. De chica, sí, era bastante rebelde; las injusticias sobre todo me sublevaban, y él decía siempre a mi madre: ¡quiero ser mayor para ser libre!",
+"segs": [
+{
+"t": "Yo soy sencillamente una obrera, tengo el oficio de guarnecedora, y toda mi vida, desde los nueve años, he trabajado en fábricas y talleres para engañar el hambre. De chica, sí, era bastante rebelde; las injusticias sobre todo me sublevaban, y él decía siempre a mi madre: ¡quiero ser mayor para ser libre!",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Y estos fragmentos son parte del artículo de Rosario de Acuña en El Socialista, el 1 de mayo de 1920",
+"segs": [
+{
+"t": "Y estos fragmentos son parte del artículo de Rosario de Acuña en ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "El Socialista",
+"b": false,
+"i": true,
+"rojo": false
+},
+{
+"t": ", el 1 de mayo de 1920",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¡Viví dos días el aire acre del sufrimiento y el aire purísimo de una espiritualidad casi primitiva, y, por lo mismo, atesoradora de las más divinas dotes! (…)",
+"segs": [
+{
+"t": "¡Viví dos días el aire acre del sufrimiento y el aire purísimo de una espiritualidad casi primitiva, y, por lo mismo, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "atesoradora",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " de las más divinas dotes! (…)",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Tuve la satisfacción y la alegría de conocerla. Supe que iba a hablar en Turón, un hermoso valle de estos incomparables montes astures, y allá me fui, metiéndome en aquel infierno de las minas, donde todo dolor tiene su asiento (…) viví en un mundo espiritual nuevo, naciente, lleno de esplendores de razón y de conciencia… ¡El marco era digno de Virginia González! La brava y sencilla mujer, cuyo esfuerzo mental es un hilo conductor de la feminidad socialista, y cuyo corazón de proletaria e inteligencia sutil acierta siempre con la nota justa para herir la mentalidad y el sentimiento de todas las mujeres buenas.  Virginia González, cuyo verbo suave o enérgico, sencillo siempre, como cumple a su misión apostólica, es digna del respeto y el afecto de todas las almas íntegras.",
+"segs": [
+{
+"t": "Tuve la satisfacción y la alegría de conocerla. Supe que iba a hablar en Turón, un hermoso valle de estos incomparables montes astures, y allá me fui, metiéndome en aquel infierno de las minas, donde todo dolor tiene su asiento (…)",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "viví en un mundo espiritual nuevo, naciente, lleno de esplendores de razón y de conciencia… ¡El marco era digno de Virginia González! La brava y sencilla mujer, cuyo esfuerzo mental es un hilo conductor de la feminidad socialista, y cuyo corazón de proletaria e inteligencia sutil acierta siempre con la nota justa para herir la mentalidad y el sentimiento de todas las mujeres buenas.  Virginia González, cuyo verbo suave o enérgico, sencillo siempre, como cumple a su misión apostólica, es digna del respeto y el afecto de todas las almas íntegras.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Con la información que hemos trabajado hasta ahora, la actividad consiste en una redacción periodística cooperativa, en la que el alumnado deberá reconstruir los acontecimientos históricos y elaborar un periódico de época que informe sobre el encuentro entre Virginia González Polo y Rosario de Acuña en Turón, así como sobre el nacimiento y desarrollo de los primeros grupos femeninos socialistas en Asturias. Para ello, debemos ponernos en la piel de periodistas de 1919-1920 y elaborar noticias a partir de las fuentes históricas trabajadas.",
+"segs": [
+{
+"t": "Con la información que hemos trabajado hasta ahora, ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "la actividad",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " consiste",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " en una redacción periodística cooperativa, en la que el alumnado ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "deberá",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " reconstruir los acontecimientos históricos y elaborar un periódico de época que informe sobre el encuentro entre Virginia González Polo y Rosario de Acuña en Turón, así como sobre el nacimiento y desarrollo de los primeros grupos femeninos socialistas en Asturias.",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " Para ello, debemos ponernos en la piel ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "de per",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "iodistas de 1919-1920 y elaborar",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " noticias a partir de las fuentes históricas trabajadas.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Posibles pasos a seguir para la Organización del trabajo:",
+"segs": [
+{
+"t": "Posibles pasos a seguir para la ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Organización del trabajo",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": ":",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "La clase se dividirá en pequeños grupos. Cada grupo formará parte de la redacción de un periódico socialista de principios del siglo XX. Cada integrante asumirá una responsabilidad: reconstrucción de los acontecimientos a partir de los textos trabajados, organización y redacción de la información, diseño de la notica y de la página del periódico con titulares e imágenes.",
+"segs": [
+{
+"t": "La clase se dividirá en pequeños grupos. Cada grupo formará parte de la redacción de un periódico socialista de principios del siglo XX.",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "Cada integra",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "nte asumirá una responsabilidad: reconstrucción de los acontecimientos a partir de los textos trabajados, organización y redacción de la información, diseño de la notica y de la página del periódico con titulares e imágenes.",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "Puesta en común                 En el aula",
+"segs": [
+{
+"t": "Puesta en común",
+"b": false,
+"i": false,
+"rojo": false
+},
+{
+"t": "                 En el aula",
+"b": false,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+},
+{
+"texto": "¡La prensa sale a la calle! Cada grupo presentará su noticia al resto de la clase. Finalmente, se unirán todos los trabajos para crear un periódico colectivo sobre los primeros grupos femeninos socialistas en Asturias.",
+"segs": [
+{
+"t": "¡La prensa sale a la calle!",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": " ",
+"b": true,
+"i": false,
+"rojo": false
+},
+{
+"t": "Cada grupo presentará su noticia al resto de la clase. Finalmente, se unirán todos los trabajos para crear un periódico colectivo sobre los primeros grupos femeninos socialistas en Asturias.",
+"b": true,
+"i": false,
+"rojo": false
+}
+],
+"lista": false,
+"rojo": false
+}
+]
