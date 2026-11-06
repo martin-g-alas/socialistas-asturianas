@@ -1117,12 +1117,11 @@ window.UD_DATOS = {
         {
          "nombre": "Josefa de Amar y Borbón (1749-1833)",
          "foto": "amar"
+        },
+        {
+         "nombre": "Benito Jerónimo Feijoo (1676-1764)",
+         "foto": "feijoo"
         }
-       ]
-      },
-      {
-       "galeria": [
-        "feijoo"
        ]
       }
      ],

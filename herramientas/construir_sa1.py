@@ -194,6 +194,20 @@ sesiones.append({
     ], "imagen": "cabecera_s3"})
 
 # ---- Sesión 4
+
+
+def textos_en_una_fila(contenido):
+    """El retrato de Feijoo iba aparte, en una galería debajo; se une a los otros dos para que
+    en el ordenador salgan los tres en la misma fila. Los nombres son los de la lista."""
+    contenido = [dict(x) if isinstance(x, dict) else x for x in contenido]
+    lista = next(x for x in contenido if isinstance(x, dict) and "lista" in x)["lista"]
+    retratos = next(x for x in contenido if isinstance(x, dict) and "retratos" in x)
+    galeria = next(x for x in contenido if isinstance(x, dict) and x.get("galeria") == ["feijoo"])
+    nombre = next(n for n in lista if n.startswith("Benito Jerónimo Feijoo"))
+    retratos["retratos"] = retratos["retratos"] + [{"nombre": nombre, "foto": "feijoo"}]
+    contenido.remove(galeria)
+    return contenido
+
 textos = vieja("s4", "Actividad documental")
 for k, pre in enumerate(["¿Se quiere hacer un pueblo", "A las primeras se las enseña", "En grave empeño me pongo"]):
     # El docx repite los textos de la versión anterior: se comprueba que no han cambiado.
@@ -206,7 +220,7 @@ pasos = [("1.1. Las voces del pasado", ["Se divide la clase en tres grupos"]),
 sesiones.append({
     "n": 4, "titulo": T("Educación, trabajo y ciudadanía", 1), "intro": T("En la cuarta sesión se pretende"),
     "actividades": [
-        {"etiqueta": "Textos", "contenido": textos["contenido"], "interactiva": textos["interactiva"]},
+        {"etiqueta": "Textos", "contenido": textos_en_una_fila(textos["contenido"]), "interactiva": textos["interactiva"]},
         {"etiqueta": eti, "titulo": tit, "aula": True,
          "contenido": [{"titulo": T("1.1. Las voces del pasado")}, T("Se divide la clase en tres grupos"),
                        {"titulo": T("1.2. Del pasado al presente")}, T("Cada grupo relaciona las ideas"),
